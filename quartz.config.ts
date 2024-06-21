@@ -11,9 +11,7 @@ const config: QuartzConfig = {
     pageTitle: "DM Year 2",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: null,
     locale: "en-US",
     baseUrl: "d1s4rr4y.github.io/DM-Year-2",
     ignorePatterns: ["private", "templates", ".obsidian"],
@@ -22,8 +20,8 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Noto Serif",
+        body: "Noto Sans",
         code: "IBM Plex Mono",
       },
       colors: {
