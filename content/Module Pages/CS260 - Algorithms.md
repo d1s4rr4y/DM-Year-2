@@ -1,0 +1,18 @@
+# Details
+[Module Webpage](https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs260/)
+**Lecturer:** [Graham Cormode](https://peoplesearch.warwick.ac.uk/profile/1271140)
+**Term:** 1
+**Status:** Core
+**Assessment:** *70%* Exam, *30%* Coursework
+- [Past Papers](https://warwick.ac.uk/exampapers?q=CS260)
+# Content 
+- Basics of algorithm analysis.
+- Elementary graph algorithms.
+- Greedy algorithms.
+- Divide-and-conquer algorithms.
+- Dynamic programming.
+- Network flows.
+- NP and computational intractability.
+
+# Reading List
+- Kleinberg and Tardos. *Algorithms Design.* Addison Wesley, 2005.

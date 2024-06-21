@@ -1,0 +1,17 @@
+# Details
+[Module Link](https://courses.warwick.ac.uk/modules/2024/MA271-10)/[Module Webpage](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/ext/ma271/)
+**Lecturer:** [Vedran Sohinger](https://warwick.ac.uk/fac/sci/maths/people/staff/vedran_sohinger/)
+**Term:** 1
+**Status:** Option List A
+**Assessment:** *85%* 2 hour exam, *15%* coursework
+- [Past Papers](https://warwick.ac.uk/exampapers?q=MA271)
+**Assumed Knowledge:** [[MA142 - Calculus 1]], [[MA143 - Calculus 2]], [[MA149 - Linear Algebra]]
+# Content 
+- Continuous Vector-Valued Functions
+- Some Linear Algebra
+- Differentiable Functions
+- Uniform convergence and applications
+- Convergence of sequences and series of functions
+- Introduction to complex valued functions
+# Reading List
+- N/A
