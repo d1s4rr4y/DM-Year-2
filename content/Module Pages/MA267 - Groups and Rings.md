@@ -1,5 +1,5 @@
 # Details
-[Module Link](https://courses.warwick.ac.uk/modules/2024/MA267-10)/[Module Webpage](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/ext/ma267)/[Lecture Notes](obsidian://open?vault=Obsidian%20Vault&file=Uni%20Stuff%2FYear%202%2FBooks%2FMA267%2F92898147-4561-43fd-a6a4-eccad831bc6e.pdf)
+[Module Link](https://courses.warwick.ac.uk/modules/2024/MA267-10)/[Module Webpage](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/ext/ma267)/[[MA267 - Groups and Rings|Lecture Notes]]
 **Lecturer:** [Nicholas Jackson](https://peoplesearch.warwick.ac.uk/profile/1670084)
 **Term:** 1
 **Status:** Option List A

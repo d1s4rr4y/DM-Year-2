@@ -1,5 +1,5 @@
 # Details
-[Module Link](https://courses.warwick.ac.uk/modules/2024/MA271-10)/[Module Webpage](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/ext/ma271/)
+[Module Link](https://courses.warwick.ac.uk/modules/2024/MA271-10)/[Module Webpage](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/ext/ma271/)/[[MA271-Mathematical-Analysis-3.pdf|Lecture Notes]]
 **Lecturer:** [Vedran Sohinger](https://warwick.ac.uk/fac/sci/maths/people/staff/vedran_sohinger/)
 **Term:** 1
 **Status:** Option List A

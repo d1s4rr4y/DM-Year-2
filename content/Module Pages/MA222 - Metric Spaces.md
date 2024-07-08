@@ -1,5 +1,5 @@
 # Details
-[Module Link](https://courses.warwick.ac.uk/modules/2024/MA222-10)/[Module Webpage](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/ext/ma222/)/[[MA222_notes_2023-2024.pdf|Lecture Notes]]
+[Module Link](https://courses.warwick.ac.uk/modules/2024/MA222-10)/[Module Webpage](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/ext/ma222/)/[[MA222-Metric-Spaces.pdf|Lecture Notes]]
 **Lecturer:** [Andras Mathe](https://warwick.ac.uk/fac/sci/maths/people/staff/Andras_Mathe/)
 **Term:** 2
 **Status:** Core

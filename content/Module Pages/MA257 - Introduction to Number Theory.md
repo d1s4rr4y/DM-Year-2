@@ -1,5 +1,5 @@
 # Details
-[Module Link](https://courses.warwick.ac.uk/modules/2024/MA257-10)/[Module Webpage](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma257)/[Lecture Notes](obsidian://open?vault=Obsidian%20Vault&file=Uni%20Stuff%2FYear%202%2FBooks%2FMA257%2FNotesV3.pdf)
+[Module Link](https://courses.warwick.ac.uk/modules/2024/MA257-10)/[Module Webpage](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma257)/[[MA257-Introduction-To-Number-Theory.pdf|Lecture Notes]]
 **Lecturer:** [Sam Chow](https://peoplesearch.warwick.ac.uk/profile/1875090)
 **Term:** 2
 **Status:** Option List A

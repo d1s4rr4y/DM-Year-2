@@ -1,5 +1,5 @@
 # Details
-[Module Link](https://courses.warwick.ac.uk/modules/2024/MA266-10)/[Module Webpage](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma266/)/[[Lecture notes (version 09.03.2024).pdf|Lecture Notes]]
+[Module Link](https://courses.warwick.ac.uk/modules/2024/MA266-10)/[Module Webpage](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma266/)/[[MA266-Multilinear-Algebra.pdf|Lecture Notes]]
 **Lecturer:** [Christian Böhning](https://warwick.ac.uk/fac/sci/maths/people/staff/boehning/)
 **Term:** 2
 **Status:** Option List B
