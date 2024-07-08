@@ -13,5 +13,3 @@
 - Uniform convergence and applications
 - Convergence of sequences and series of functions
 - Introduction to complex valued functions
-# Reading List
-- N/A
