@@ -1,5 +1,5 @@
 # Details
-[Module Link](https://courses.warwick.ac.uk/modules/2024/MA222-10)/[Module Webpage](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma252/)/[[MA222_notes_2023-2024.pdf|Lecture Notes]]
+[Module Link](https://courses.warwick.ac.uk/modules/2024/MA222-10)/[Module Webpage](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma252/)
 **Lecturer:** [Oleg Pikhurko](https://warwick.ac.uk/fac/sci/maths/people/staff/oleg_pikhurko/)
 **Term:** 2
 **Status:** Option List A
