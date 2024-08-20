@@ -170,8 +170,18 @@ Similarly to the binomial coefficients, we can make observations by writing the 
 >> 
 >> If we allowed empty parts, we would be partitioning $[k]$ into *at most* $n$ parts, which would form a summation. 
 
+> [!note] Notation 
+> For $k \ge o$, define the Bell numbers $B_k = \sum_{n = 0}^{k} S(k, n)$. That is, $B_k$ is the number of ways to partition $[k]$ into any number of parts. 
+> The first few Bell numbers are $1, 1, 2, 5, 15, 52, 203, 877, 4140,...$
 
+> [!warning] **PROPOSITION** 
+> $$B_k = \displaystyle \sum_{n = 0}^{k - 1} {k - 1 \choose n} B_n$$
+>> [!note]- Proof 
+>> 
+>> I'm lazy I'll do it later
 # Stars and Bars 
+
+
 
 # Generating Functions 
 
