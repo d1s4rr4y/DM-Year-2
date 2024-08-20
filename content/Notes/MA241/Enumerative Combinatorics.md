@@ -181,7 +181,25 @@ Similarly to the binomial coefficients, we can make observations by writing the 
 >> I'm lazy I'll do it later
 # Stars and Bars 
 
+If we have $k$ unlabelled balls, and $n$ labelled boxes (of arbitrary capacity), how many ways can we distribute the balls? 
 
+> [!note] Example
+> Let $k = 3$ and $n = 3$. The ways to arrange the balls are:
+> 3 | 0 | 0     2 | 1 | 0     2 | 0 | 1     1 | 2 | 0     1 | 1 | 1
+> 1 | 0 | 2     0 | 3 | 0     0 | 2 | 1     0 | 1 | 2     0 | 0 | 3
+> 
+> Which is the same as $x^3, x^2y, x^2z, xy^2 xyz, xz^2, y^3, y^2z, yz^2, z^3$
+> 
+> Note that we get a recursion $C_{k, n} = \sum_{i = 0}^{k} F_{k - i, n - 1}$
+> 
+> This example can be redrawn as follows: 
+> \*\*\*||     \*\*|\*|     \*\*||*     \*|\*\*|     \*|\*|\*|
+> \*||\*\*     |\*\*\*|     |\*\*|\*     |\*|\*\*     ||\*\*\*
+> 
+> They are sequences of 5 symbols, with 2 bars and 3 stars. That is, choose 3 stars out of 5 slots. 
+
+> [!warning] **PROPOSITION**
+> There are ${n + (k - 1) \choose n - 1}$ ways to distribute the balls.
 
 # Generating Functions 
 
