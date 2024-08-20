@@ -203,6 +203,24 @@ If we have $k$ unlabelled balls, and $n$ labelled boxes (of arbitrary capacity),
 
 # Generating Functions 
 
+>[!warning] **DEFINITION** Ordinary and Exponential Generating Functions
+> Let $(a_n)_{n \ge 0}$ be a sequence of numbers. The formal power series 
+> $$ \displaystyle \sum_{n = 0}^{\infty} a_nx^n$$ 
+> is called the *ordinary generating function* of $(a_n)_{n \ge o}$, and the formal power series 
+> $$\displaystyle \sum_{n = 0}^{\infty}a_n \frac{x^n}{n!}$$
+> is called the *exponential generating function* of $(a_n)_{n \ge 0}$
+> Where "formal" means we haven't checked whether the power series has a nonzero radius of convergence. 
+
+> [!note] Example 
+> Let $f_n$ denote the $n$th Fibonacci number, defined by $f_0 = f_1 = 1$ and $f_n = f_{n - 1} + f_{n - 2}$ for $n \ge 2$. 
+> The generating function $F(x)$ for the Fibonacci numbers is as follows:
+> $$F(x) = 1 + x + 2x^2 + 3x^3 + 5x^4 + 8x^5 + 13x^6 + 21x^7+...$$
+> Note what happens when $F(x)$ is multiplied by $x$ and $x^2$. 
+> $$xF(x) = x + x^2 + 2x^3 + 3x^4 + 5x^5 + 8x^6 + 13x^7 + ...$$
+> $$x^2 F(x) = x^2 + x^3 + 2x^4 + 3x^5 + 5x^6 + 8x^7 + ...$$
+> Using the recursion we see that $1 + xF(x) + x^2F(x) = F(x)$. We can solve for $F(x)$ to get $F(x) = \frac{1}{1 - x - x^2}$.
+
+Note: I am so confused what the fuck is this shit 
 
 # Integer Partitions 
 
