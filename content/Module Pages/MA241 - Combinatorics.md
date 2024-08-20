@@ -12,12 +12,14 @@ _I [[Enumerative Combinatorics]]:_
 - Linear recurrence relations and the Fibonacci numbers
 - Generating functions and the Catalan numbers
 - Permutations, Partitions and the Stirling and Bell numbers
-_II [[Graph Theory]]:
+
+_II [[Graph Theory]]:_
 - Basic concepts (isomorphism, connectivity, Euler circuits)
 - Trees (basic properties of trees, spanning trees, counting trees)
 - Planarity (Euler's formula, Kuratowski’s theorem, the Four Colour Problem)
 - Matching Theory (Hall's Theorem and Systems of Distinct Representatives)
 - Elements of Ramsey Theory
+
 _III [[Boolean Functions]]_
 
 # Reading List
