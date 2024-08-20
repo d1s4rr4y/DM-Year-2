@@ -22,7 +22,6 @@ title: Overview
 
 | Code                                               | Name                                                                                                          | CATS | Term |
 | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ---- | ---- |
-| [[CS262 - Logic and Verification\|CS262]]          | [Logic and Verification](https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs262/)                           | 15   | 2    |
 | [[MA243 - Geometry \| MA243]]                      | [Geometry](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma243/)                       | 10   | 1    |
 | [[MA250 - Partial Differential Equations\|MA250]]  | [Partial Differential Equations](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma250/) | 10   | 1    |
 | [[MA252 - Combinatorial Optimisation\|MA252]]      | [Combinatorial Optimisation](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma252/)     | 10   | 2    |
@@ -31,12 +30,3 @@ title: Overview
 | [[MA266 - Multilinear Algebra \| MA266]]           | [Multilinear Algebra](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma266/)            | 10   | 2    |
 | [[MA267 - Groups and Rings \| MA267]]              | [Groups and Rings](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/ext/ma267/)                 | 10   | 1    |
 | [[MA271 - Mathematical Analysis 3\|MA271]]         | [Mathematical Analysis 3](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/ext/ma271/)          | 10   | 1    |
-
-# Notes
-
-**Lecture Notes Not Obtained**
-- CS254
-- CS260
-- CS262
-- MA252
-- MA264

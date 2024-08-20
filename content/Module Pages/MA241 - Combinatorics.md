@@ -6,19 +6,19 @@
 **Assessment:** *90%* 2 hour exam, *10%* Assignments
 - [Past Papers](https://warwick.ac.uk/exampapers?q=MA241)
 # Content 
-_I Enumerative Combinatorics:_
+_I [[Enumerative Combinatorics]]:_
 - Basic counting (Lists with and without repetitions, Binomial coefficients and the Binomial Theorem)
 - Applications of the Binomial Theorem (Multinomial Theorem, Multiset formula, Principle of inclusion/exclusion)
 - Linear recurrence relations and the Fibonacci numbers
 - Generating functions and the Catalan numbers
 - Permutations, Partitions and the Stirling and Bell numbers
-_II Graph Theory:
+_II [[Graph Theory]]:
 - Basic concepts (isomorphism, connectivity, Euler circuits)
 - Trees (basic properties of trees, spanning trees, counting trees)
 - Planarity (Euler's formula, Kuratowski’s theorem, the Four Colour Problem)
 - Matching Theory (Hall's Theorem and Systems of Distinct Representatives)
 - Elements of Ramsey Theory
-_III Boolean Functions_
+_III [[Boolean Functions]]_
 
 # Reading List
 - Edward E. Bender and S. Gill Williamson, [Foundations of Combinatorics with Applications](http://www.math.ucsd.edu/~ebender/CombText/), Dover Publications, 2006.
