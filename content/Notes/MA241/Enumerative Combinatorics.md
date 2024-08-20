@@ -114,12 +114,16 @@ How much did we overcount by? Suppose 140 students do both Combinatorics and Alg
 
 > [!warning] **THEOREM** inclusion-Exclusion Theorem
 > Let $A_1, ..., A_r$ be sets. Then
-> ![[Pasted image 20240820200005.png]]
+> $$|A_1 \cup ... \cup A_r| = \displaystyle \sum_{I \subseteq \{1,..., r\}, I \ne \emptyset} (-1)^{|I| - 1}|\displaystyle \bigcap_{i \in I} A_i |$$
+> 
 >> [!note]- Proof
+>> 
 >> We need to see why each element of $A_1 \cup ... \cup A_r$ gets counted exactly once in total on the right side. Let $J \subseteq \{1,...,r\}$ be the set of $A_i$s containing element $x$ (in other words, the set of modules a student $x$ is enrolled in). Then $x$ gets counted as $+1$ in term $I$ for all $I \subseteq J$ with an odd number of elements, and $x$ gets counted as $-1$ in term $I$ for all nonempty $I \subseteq J$ with an even number of elements. 
 >> 
->> Overall, $x$ gets counted $${|J| \choose 1} - {|J| \choose 2} + {|J| \choose 3} - {|J| \choose 4} + ... + (-1)^{|J| + 1}{|J| \choose |J|}$$
->> This is the same as $${|J| \choose 0} + \displaystyle \sum_{k = 0}^{|J|} (-1)^{k + 1} {|J| \choose k} = {|J| \choose 0} + 0^{|J|}$$
+>> Overall, $x$ gets counted 
+>> $${|J| \choose 1} - {|J| \choose 2} + {|J| \choose 3} - {|J| \choose 4} + ... + (-1)^{|J| + 1}{|J| \choose |J|}$$
+>> This is the same as 
+>> $${|J| \choose 0} + \displaystyle \sum_{k = 0}^{|J|} (-1)^{k + 1} {|J| \choose k} = {|J| \choose 0} + 0^{|J|}$$
 >> Where the last equality is by expanding $(-1 + 1)^{|J|}$ using the binomial theorem. Thus, $x$ gets counted altogether ${|J| \choose 0} = 1$ time. 
 ## Application of Inclusion-Exclusion - Counting Surjections
 Back to the problem of counting surjections $[k] \to [n]$. We have discovered it may be easier to count functions that are *not* surjections, but how can we break up this set as much as possible? 
@@ -130,10 +134,13 @@ Define $A_i$ to be the set of functions missing $i$. Now lets try to apply inclu
 
 We also need to calculate $|A_i \cap A_j|$. $A_i \cap A_j$ is the set of functions $[k] \to [n] \backslash \{i, j\}$, so $|A_i \cap A_j| = (n - 2)^k$
 
-We can calculate any term of the inclusion exclusion formula: $|\bigcap_{i \in I} A_i| = (n - |I|)^k$. So the number of *non*-surjections $[k] \to [n]$ is $$\displaystyle \sum_{I \subseteq [n], I \ne \emptyset}(-1)^{|I| + 1}(n - |I|)^k$$
-Subtracting this from the total number of functions gives $\operatorname{Surj}(k, n)$: $$\operatorname{Surj}(k,n) = n^k - \displaystyle \sum_{I \subseteq [n], I \ne \emptyset}(-1)^{|I| + 1}(n - |I|)^k = \displaystyle \sum_{I \subseteq [n]} (-1)^{|I|}(n - |I|)^k$$
+We can calculate any term of the inclusion exclusion formula: $|\bigcap_{i \in I} A_i| = (n - |I|)^k$. So the number of *non*-surjections $[k] \to [n]$ is 
+$$\displaystyle \sum_{I \subseteq [n], I \ne \emptyset}(-1)^{|I| + 1}(n - |I|)^k$$
+Subtracting this from the total number of functions gives $\operatorname{Surj}(k, n)$: 
+$$\operatorname{Surj}(k,n) = n^k - \displaystyle \sum_{I \subseteq [n], I \ne \emptyset}(-1)^{|I| + 1}(n - |I|)^k = \displaystyle \sum_{I \subseteq [n]} (-1)^{|I|}(n - |I|)^k$$
 
-We can simplify this formula (to remove having to sum over a very large set) by grouping terms with the same size $I$, as follows: $$\operatorname{Surj}(k, n) = \displaystyle \sum_{I \subseteq [n]} (-1)^{|I|}(n - |I|)^k = \displaystyle \sum_{m = 0}^{n} \displaystyle \sum_{I \subseteq [n], |I| = m} (-1)^{|I|}(n - |I|)^k$$ $$= \displaystyle \sum_{m = 0}^{n} \displaystyle \sum_{I \subseteq [n], |I| = m} (-1)^m(n - m)^k$$
+We can simplify this formula (to remove having to sum over a very large set) by grouping terms with the same size $I$, as follows: 
+$$\operatorname{Surj}(k, n) = \displaystyle \sum_{I \subseteq [n]} (-1)^{|I|}(n - |I|)^k = \displaystyle \sum_{m = 0}^{n} \displaystyle \sum_{I \subseteq [n], |I| = m} (-1)^{|I|}(n - |I|)^k$$ $$= \displaystyle \sum_{m = 0}^{n} \displaystyle \sum_{I \subseteq [n], |I| = m} (-1)^m(n - m)^k$$
 $$ = \displaystyle \sum_{m = 0}^{n} (-1)^m(n - m)^k \displaystyle \sum_{I \subseteq [n], |I| = m} 1$$
 $$ = \displaystyle \sum_{m = 0}^{N} (-1)^m (n - m)^k {n \choose m}$$
 To check, let's use the example from before: $$\operatorname{Surj}(4, 2) = 2^4 {2 \choose 0} - 1^4 {2 \choose 1} + 0^4 {2 \choose 2} = 16 - 2 + 0 = 14$$
@@ -142,6 +149,8 @@ Using ${n \choose m} = {n \choose n - m}$ and the substitution $j = n - m$ gives
 
 # Counting Set Partitions: Stirling Numbers 
 
+What if we count surjections, but with unlabelled boxes. This can be interpreted as counting the ways of dividing $[k]$ into $n$ nonempty pieces. These numbers $S(k, n)$ are called the *Stirling numbers of the second kind*. If we think this through carefully, each surjection gets counted exactly $n!$ times, giving the formula: 
+$$S(k, n) = \frac{1}{n!} \displaystyle \sum_{m = 0}^{n}(-1)^m(n - m)^k {n \choose m}$$
 
 # Stars and Bars 
 
