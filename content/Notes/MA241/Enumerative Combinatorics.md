@@ -41,9 +41,11 @@ How many ways are there to choose 3 distinct objects out of a total of 10?
 > ${n \choose k} = {n - 1 \choose k} + {n - 1 \choose k - 1}$
 > There are 2 ways to prove this:
 >> [!note]- Proof 1
+>> 
 >> $$\frac{(n - 1)!}{k!(n - k - 1)!} + \frac{(n - 1)!}{(k - 1)!(n - k)!} = \frac{(n - 1)!((n - k) + k)}{k!(n - k)!} = \frac{n!}{k!(n - k)!}$$
 >
 >> [!note]- Proof 2
+>> 
 >> Suppose we want to choose $k$ things out of $n$ choices. We can choose the first one, then choose $k - 1$ things out of $n - 1$ choices, or we can *not* choose the first one, and choose $k$ things out of $n - 1$ choices.
 >> 
 
@@ -56,6 +58,7 @@ We can also answer this in a different way - it is the number of 0 ball choices 
 >> $$(a + b)^4 = a^4 + 4a^3b + 6a^2b^2 + 4ab^3 + b^4$$
 > 
 >> [!note]- Proof
+>> 
 >> Specifying any term of $(a + b)(a + b)...(a + b)$ consists of choosing, for each factor, either the $a$ or the $b$. There are $n \choose k$ ways to choose $k$ $a$s and $n - k$ $b$s. 
 
 > [!warning] **PROPOSITION** 
@@ -82,9 +85,11 @@ Recall that if $K$ and $N$ are sets, a *function* $f: K \to N$ assigns a single 
 > A function $f: K \to N$ that is both injective and surjective is called *bijective*. 
 > It is only possible to have such a function if $|K| = |N|$. 
 >> [!note] Note
+>> 
 >> A function is bijective if and only if it has an *inverse* - A function $f: K \to N$ is bijective if and only if there exists a function $g: N \to K$ such that $f \circ g = id_N$, and $g \circ f = id_K$, where $id_n:N \to N$ and $id_K: K \to K$ are the identity functions. 
 >
 >> [!note] Example
+>> 
 >> Here is a bijection $f$ from $K = \{1, 2, 3\}$ to $N = \{A, B, C\}$:
 >> $$f(1) = A, f(2) = C, f(3) = B$$
 
@@ -143,14 +148,28 @@ We can simplify this formula (to remove having to sum over a very large set) by 
 $$\operatorname{Surj}(k, n) = \displaystyle \sum_{I \subseteq [n]} (-1)^{|I|}(n - |I|)^k = \displaystyle \sum_{m = 0}^{n} \displaystyle \sum_{I \subseteq [n], |I| = m} (-1)^{|I|}(n - |I|)^k$$ $$= \displaystyle \sum_{m = 0}^{n} \displaystyle \sum_{I \subseteq [n], |I| = m} (-1)^m(n - m)^k$$
 $$ = \displaystyle \sum_{m = 0}^{n} (-1)^m(n - m)^k \displaystyle \sum_{I \subseteq [n], |I| = m} 1$$
 $$ = \displaystyle \sum_{m = 0}^{N} (-1)^m (n - m)^k {n \choose m}$$
-To check, let's use the example from before: $$\operatorname{Surj}(4, 2) = 2^4 {2 \choose 0} - 1^4 {2 \choose 1} + 0^4 {2 \choose 2} = 16 - 2 + 0 = 14$$
-We can also see that if $k = 1$ and $n > 1$, then $$ 0 = \operatorname{Surj}(k, n) = \displaystyle \sum_{m = 0}^{n} (-1)^m(n - M) {n \choose m}$$
-Using ${n \choose m} = {n \choose n - m}$ and the substitution $j = n - m$ gives  $$0 = (-1)^n \displaystyle \sum_{j = 0}^{n}(-1)^j j {n \choose j}$$
+To check, let's use the example from before: 
+$$\operatorname{Surj}(4, 2) = 2^4 {2 \choose 0} - 1^4 {2 \choose 1} + 0^4 {2 \choose 2} = 16 - 2 + 0 = 14$$
+We can also see that if $k = 1$ and $n > 1$, then 
+$$ 0 = \operatorname{Surj}(k, n) = \displaystyle \sum_{m = 0}^{n} (-1)^m(n - M) {n \choose m}$$
+Using ${n \choose m} = {n \choose n - m}$ and the substitution $j = n - m$ gives  
+$$0 = (-1)^n \displaystyle \sum_{j = 0}^{n}(-1)^j j {n \choose j}$$
 
 # Counting Set Partitions: Stirling Numbers 
 
 What if we count surjections, but with unlabelled boxes. This can be interpreted as counting the ways of dividing $[k]$ into $n$ nonempty pieces. These numbers $S(k, n)$ are called the *Stirling numbers of the second kind*. If we think this through carefully, each surjection gets counted exactly $n!$ times, giving the formula: 
 $$S(k, n) = \frac{1}{n!} \displaystyle \sum_{m = 0}^{n}(-1)^m(n - m)^k {n \choose m}$$
+Similarly to the binomial coefficients, we can make observations by writing the Stirling numbers out in a triangle
+> [!warning] **PROPOSITION**
+> $S(k, n) = S(k - 1, n - 1) + nS(k - 1, n)$
+>> [!note]- Proof
+>> 
+>> Does $1 \in [k]$ form a singleton block? If yes, there are $K(k - 1, n - 1) ways to partition the rest of the set. If no, removing $1$ yields a partition of $[k] \backslash \{1\} = \{2, ..., k \}$ into $n$ pieces, and $1$ must have come from one of these pieces. 
+>
+>> [!note] Notes
+>> 
+>> If we allowed empty parts, we would be partitioning $[k]$ into *at most* $n$ parts, which would form a summation. 
+
 
 # Stars and Bars 
 
