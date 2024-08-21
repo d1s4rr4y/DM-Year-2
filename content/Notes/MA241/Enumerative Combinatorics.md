@@ -224,10 +224,68 @@ Note: I am so confused what the fuck is this shit
 
 # Integer Partitions 
 
+Let $k \le n$ be positive integers. How many ways are there to divide $n$ unlabelled balls into $k$ unlabelled boxes so that each box gets a ball? Now all that matters is the number of balls in each box. This is the number of ways to write the integer $n$ as a sum of $k$ positive integers (without caring about the order). We call this number $p_k(n)$. 
 
+> [!note] Example
+> There are 8 partitions of 10 into 3 parts:
+> $8 + 1 + 1, 7 + 2 + 1, 6 + 3 + 1, 6 + 2 + 2, 5 + 4 + 1, 5 + 3 + 2, 4 + 4 + 2, 4 + 3 + 3$
+
+If we allow any number of boxes, we get $p(n)$, the number of partitions of $n$. 
+
+>[!note] Example
+>There are 7 partitions of 5:
+>$5, 4 + 1, 3 + 2, 3 + 1 + 1, 2 + 2 + 1, 2 + 1 + 1 + 1, 1 + 1 + 1 + 1 + 1$
+
+There are no good formulas for $p(n)$ or $p_k(n)$
+
+> [!warning] **DEFINITION** Conjugate Partition
+> Let $\lambda$ be a partition of $n$. The *conjugate partition* $\lambda^T$ of $\lambda$ is the partition corresponding to the reflection of the Ferrers diagram of $\lambda$ over the diagonal 
+>> [!note] Example 
+>> $4 + 1$ is conjugate to $2 + 1 + 1 + 1$. 
+>> $3 + 1 + 1$ is conjugate to itself
+
+>[!warning] **PROPOSITION**
+>The number of partitions of $n$ into at most $k$ parts is equal to the number of partitions of $n$ into parts of size at most $k$
+>>[!note]- Example
+>>
+>>The partitions of 7 into at most 3 pieces:
+>>$7, 6 + 1, 5 + 2, 4 + 3, 5 + 1 + 1, 4 + 2 + 1, 3 + 3 + 1, 3 + 2 + 2$
+>>The partitions of 7 into parts of size at most 3:
+>>$3 + 3 + 1, 3 + 2 + 1, 3 + 2 + 1 + 1, 3 + 1 + 1 + 1 + 1, 2 + 2 + 2 + 1, 2 + 2 + 1 + 1 + 1, 2 + 1 + 1 + 1 + 1 + 1, 1 + 1 + 1 + 1 + 1 + 1 + 1$
+>
+>>[!note]- Proof 
+>>
+>> The two sets of partitions are related by conjugation
+
+> [!warning] **PROPOSITION**
+> The number of partitions of $n$ into distinct off parts is equal to the number of self-conjugate partitions of $n$
+> 
+
+ > [!warning] **PROPOSITION**
+ > The number of partitions of $n$ into odd parts is equal to the number of partitions of $n$ into distinct parts
+ >> [!note]- Example 
+ >> 
+ >> Let $n = 8$
+ >> Odd parts: $7 + 1, 5 + 3, 5 + 1 + 1 + 1, 3 + 3 + 1 + 1, 3 + 1 + 1 + 1 + 1 + 1, 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1$
+ >> Distinct parts: $8, 7 + 1, 6 + 2, 5 + 3, 5 + 2 + 1, 4 + 3 + 1$
+ >
+ >>[!note]- Proof 
+ >> Using $(1 + x^i) = \frac{1 - x^{2i}}{1 - x^i}$, we have 
+ >> $$ \displaystyle \sum_{n \ge 0} p_{distinct}(n)x^n = \displaystyle \prod_{i \ge 1}(1 + x^i) = \displaystyle \prod_{i \ge 1} \frac{1 - x^{2i}}{1 - x^1}$$
+ >> $$= \frac{(1- x^2)(1 - x^4)(1 - x^6)...}{(1 - x)(1 - x^2)(1 - x^3)...}$$
+ >> $$=\frac{1}{(1 - x)(1 - x^3)(1 - x^5)...} = \displaystyle \sum_{n \ge 0}p_{odd}(n)x^n$$
+ 
+ 
 # Catalan Numbers
 
+>[!warning] **DEFINITION** Triangulation
+>A *triangulation* of a regular $n$-gon is a collection of non-crossing diagonals that divide the $n$-gon into triangles.
 
+>[!warning] **DEFINITION** Catalan Number
+>The $n$th *Catalan number* $C_n$ is the number of triangulations of a regular $(n + 2)$-gon.
+
+> [!warning] **DEFINITION** Balanced Sequence
+> A *balanced sequence* of $n$ opening and $n$ closing parenthesis is a sequence such that every close-parenthesis has a matching open-parenthesis 
 
 
 
