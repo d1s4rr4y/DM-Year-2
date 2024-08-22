@@ -10,8 +10,8 @@
 # Content 
 - Basics of algorithm analysis.
 - Elementary graph algorithms.
-- Greedy algorithms.
-- Divide-and-conquer algorithms.
+- [[Greedy algorithms]]
+- [[Divide and Conquer|Divide-and-conquer algorithms]]
 - Dynamic programming.
 - Network flows.
 - NP and computational intractability.
