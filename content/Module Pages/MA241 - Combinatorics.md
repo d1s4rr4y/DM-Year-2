@@ -1,3 +1,5 @@
+← Back to the [[Second Year|Course Overview]]
+- - -
 # Details
 [Module Link](https://courses.warwick.ac.uk/modules/2024/MA241-10)/[Module Webpage](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma241)/[[MA241-Combinatorics.pdf|Lecture Notes]]
 **Lecturer:** [Rob Silversmith](https://peoplesearch.warwick.ac.uk/profile/2073543)
@@ -19,8 +21,6 @@ _II [[Graph Theory]]:_
 - Planarity (Euler's formula, Kuratowski’s theorem, the Four Colour Problem)
 - Matching Theory (Hall's Theorem and Systems of Distinct Representatives)
 - Elements of Ramsey Theory
-
-_III [[Boolean Functions]]_
 
 # Reading List
 - Edward E. Bender and S. Gill Williamson, [Foundations of Combinatorics with Applications](http://www.math.ucsd.edu/~ebender/CombText/), Dover Publications, 2006.

@@ -1,3 +1,5 @@
+← Back to the [[Enumerative Combinatorics|Previous Topic]]
+- - -
 # Definitions 
 
 - **Graph** - A (simple) graph is a pair $G = (V, E)$, where $V$ is a finite set ("vertices") and $E$ is a set ("edges") of unordered pairs $\{v, w\}$, where $v, w \in V$.
@@ -44,3 +46,6 @@
 - **Ramsey's Theorem, 1930** - Fix positive integers $k$ and $\ell$. Then for sufficiently large $n$, every 2-edge-colouring of $K_n$ contains a red $K_k$ or a blue $K_\ell$ 
 - *Corollary (Upper bound for Ramsey Numbers)* - The Ramsey Number $R(k, \ell)$ satisfies $R(k, \ell) \le {k + \ell - 2 \choose k - 1}$
 - **Erdös Lower Bound for Ramsey Numbers, 1947** - The Ramsey number $R(k, k)$ satisfies $R(k, k) > 2^\frac{k}{2}$
+
+- - - 
+End of Content, back to the [[MA241 - Combinatorics|Module Overview]] →

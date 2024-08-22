@@ -1,3 +1,5 @@
+← Back to the [[Second Year|Course Overview]]
+- - -
 # Details
 [Module Link](https://courses.warwick.ac.uk/modules/2024/MA222-10)/[Module Webpage](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/ext/ma222/)/[[MA222-Metric-Spaces.pdf|Lecture Notes]]
 **Lecturer:** [Andras Mathe](https://warwick.ac.uk/fac/sci/maths/people/staff/Andras_Mathe/)
@@ -11,6 +13,7 @@
 - *Analysis 3:* - Pointwise and uniform convergence of sequences of functions, Open and closed sets in Rn
 
 # Content 
+- 
 - Normed, Metric and Topological spaces
 - Open and closed sets and their relation to continuity
 - Notions of Compactness and relations to continuous maps

@@ -1,3 +1,5 @@
+← Back to the [[Second Year|Course Overview]]
+- - -
 # Details
 [Module Webpage](https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs262/)
 **Lecturer:** [Torsten Mutze](https://peoplesearch.warwick.ac.uk/profile/2370551)

@@ -1,3 +1,5 @@
+← Back to the [[Second Year|Course Overview]]
+- - -
 # Details
 [Module Link](https://courses.warwick.ac.uk/modules/2024/MA267-10)/[Module Webpage](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/ext/ma267)/[[MA267-Groups-And-Rings.pdf|Lecture Notes]]
 **Lecturer:** [Nicholas Jackson](https://peoplesearch.warwick.ac.uk/profile/1670084)

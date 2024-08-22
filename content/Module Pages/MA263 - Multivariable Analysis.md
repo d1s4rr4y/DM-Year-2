@@ -1,3 +1,5 @@
+← Back to the [[Second Year|Course Overview]]
+- - -
 # Details
 [Module Link](https://courses.warwick.ac.uk/modules/2023/MA263-10)/[Module Webpage](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma263/)/[[MA263-Multivariable-Analysis.pdf|Lecture Notes]]
 **Lecturer:** [Felix Schulze](https://warwick.ac.uk/fac/sci/maths/people/staff/schulze/)

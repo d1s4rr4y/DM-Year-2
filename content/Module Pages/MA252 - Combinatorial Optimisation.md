@@ -1,3 +1,5 @@
+← Back to the [[Second Year|Course Overview]]
+- - -
 # Details
 [Module Link](https://courses.warwick.ac.uk/modules/2024/MA222-10)/[Module Webpage](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma252/)
 **Lecturer:** [Oleg Pikhurko](https://warwick.ac.uk/fac/sci/maths/people/staff/oleg_pikhurko/)

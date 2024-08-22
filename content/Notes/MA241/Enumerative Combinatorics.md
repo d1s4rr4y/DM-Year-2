@@ -1,3 +1,5 @@
+← Back to the [[MA241 - Combinatorics|Module Overview]]
+- - -
 # Balls and Boxes 
 
 > [!note] Example 1
@@ -287,5 +289,5 @@ There are no good formulas for $p(n)$ or $p_k(n)$
 > [!warning] **DEFINITION** Balanced Sequence
 > A *balanced sequence* of $n$ opening and $n$ closing parenthesis is a sequence such that every close-parenthesis has a matching open-parenthesis 
 
-
-
+- - - 
+Go to the [[Graph Theory|Next Topic]] →

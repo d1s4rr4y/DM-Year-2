@@ -1,3 +1,5 @@
+← Back to the [[Second Year|Course Overview]]
+- - -
 # Details
 [Module Webpage](https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs259/)/[Online Material](https://warwick.ac.uk/fac/sci/dcs/teaching/material/cs259/)/[[CS259-Formal-Languages.pdf|Lecture Notes]]
 **Lecturer:** [Ramanujan Maadapuzhi Sridharan](https://peoplesearch.warwick.ac.uk/profile/1675336)
