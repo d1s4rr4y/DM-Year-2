@@ -29,3 +29,7 @@
 | [[MA266 - Multilinear Algebra \| MA266]]           | [Multilinear Algebra](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma266/)            | 10   | 2    |
 | [[MA267 - Groups and Rings \| MA267]]              | [Groups and Rings](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/ext/ma267/)                 | 10   | 1    |
 | [[MA271 - Mathematical Analysis 3\|MA271]]         | [Mathematical Analysis 3](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/ext/ma271/)          | 10   | 1    |
+# Notes 
+
+For now, I am only working on notes for the term 1 modules. I will be working on the term 2 modules when I have time and aim to complete the notes over the Christmas break. 
+
