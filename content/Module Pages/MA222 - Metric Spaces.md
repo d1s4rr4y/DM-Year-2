@@ -13,12 +13,11 @@
 - *Analysis 3:* - Pointwise and uniform convergence of sequences of functions, Open and closed sets in Rn
 
 # Content 
-- 
-- Normed, Metric and Topological spaces
-- Open and closed sets and their relation to continuity
-- Notions of Compactness and relations to continuous maps
-- Notions of Connectedness and relations to continuous maps
-- Notions of Completeness and relations to previous topics in the module
+- [[Normed, Metric and Topological spaces]]
+- [[Open and closed sets]] and their relation to continuity
+- Notions of [[Compactness]] and relations to continuous maps
+- Notions of [[Connectedness]] and relations to continuous maps
+- Notions of [[Completeness]] and relations to previous topics in the module
 
 # Reading List
 - W A Sutherland, _Introduction to Metric and Topological Spaces_, OUP. 

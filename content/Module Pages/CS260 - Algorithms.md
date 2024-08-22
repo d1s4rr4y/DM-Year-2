@@ -12,9 +12,9 @@
 - Elementary graph algorithms.
 - [[Greedy algorithms]]
 - [[Divide and Conquer|Divide-and-conquer algorithms]]
-- Dynamic programming.
-- Network flows.
-- NP and computational intractability.
+- [[Dynamic Programming]] (incomplete)
+- [[NP and Computational Intractability]] (incomplete)
+- [[Network Flows]] (incomplete)
 
 # Reading List
 - Kleinberg and Tardos. *Algorithms Design.* Addison Wesley, 2005.

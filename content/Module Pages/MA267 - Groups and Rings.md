@@ -16,7 +16,7 @@
 - [[MA257 - Introduction to Number Theory]]
 - [[MA266 - Multilinear Algebra]]
 # Content 
-- *Group theory:* 
+- *[[Group theory]]:* 
 	- Basic definitions and properties of groups, subgroups and homomorphisms. 
 	- Cosets and Lagrange's Theorem. 
 	- Normal subgroups and quotient groups. 
@@ -24,7 +24,7 @@
 	- Isomorphism theorems. 
 	- Group actions, orbits and stabilisers, conjugacy classes, simple groups. 
 	- Classification of finitely-generated abelian groups.
-- *Ring theory:* 
+- *[[Ring theory]]:* 
 	- Basic definitions and properties of rings, subrings and homomorphisms. 
 	- Ideals and quotient rings. 
 	- Integral domains, Euclidean domains, Principal Ideal Domains (PIDs), Unique Factorisation Domains (UFDs). 

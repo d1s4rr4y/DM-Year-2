@@ -9,9 +9,9 @@
 - [Past Papers](https://warwick.ac.uk/exampapers?q=MA271)
 **Assumed Knowledge:** [[MA142 - Calculus 1]], [[MA143 - Calculus 2]], [[MA149 - Linear Algebra]]
 # Content 
-- Continuous Vector-Valued Functions
-- Some Linear Algebra
-- Differentiable Functions
-- Uniform convergence and applications
-- Convergence of sequences and series of functions
-- Introduction to complex valued functions
+- [[Continuous Vector-Valued Functions]]
+- Some [[Linear Algebra]]
+- [[Differentiable Functions]]
+- [[Uniform convergence]] and applications
+- [[Convergence]] of sequences and series of functions
+- Introduction to [[complex valued functions]]

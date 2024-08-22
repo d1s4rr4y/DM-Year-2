@@ -12,13 +12,13 @@
 - *Number theory:* congruence modulo n, prime factorisation, Euclidean algorithm, gcd and lcm, Bezout lemma
 
 # Content 
-- Factorisation, divisibility, Euclidean Algorithm, Chinese Remainder Theorem
-- Congruences. Structure on Z/mZ and its multiplicative group. Theorems of Fermat and Euler. Primitive roots
-- Quadratic reciprocity, Diophantine equations
-- Elementary factorization algorithms
-- Introduction to Cryptography
-- p-adic numbers, Hasse Principle
-- Geometry of numbers, sum of two and four squares
+- [[Factorisation, divisibility, Euclidean Algorithm, Chinese Remainder Theorem]]
+- [[Congruences]]. Structure on Z/mZ and its multiplicative group. Theorems of Fermat and Euler. Primitive roots
+- [[Quadratic reciprocity]], [[Diophantine equations]]
+- [[Elementary factorization algorithms]]
+- Introduction to [[Cryptography]]
+- [[p-adic numbers, Hasse Principle]]
+- [[Geometry of numbers]], sum of two and four squares
 
 # Reading List
 - H. Davenport, [The Higher Arithmetic](obsidian://open?vault=Obsidian%20Vault&file=Uni%20Stuff%2FYear%202%2FBooks%2FH.%20Davenport.pdf), Cambridge University Press

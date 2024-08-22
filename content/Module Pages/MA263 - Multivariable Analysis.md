@@ -15,11 +15,11 @@
 - [[MA271 - Mathematical Analysis 3]]: Differentiable Functions from 𝑅𝑛 to 𝑅𝑚 and uniform convergence.
 
 # Content 
-- Differentiable Functions from 𝑅𝑛 to 𝑅𝑚
-- Inverse Function Theorem and Implicit Function Theorem
-- Higher Dimensinal Riemann Integration
-- Vector Fields, Green’s Theorem in the plane, Stokes' Theorem on 2-dimensional surfaces and the Divergence Theorem in R3𝑅3
-- Taylor’s theorem in higher dimensions and maxima, minima and saddles
+- [[Differentiable Functions]] from 𝑅𝑛 to 𝑅𝑚
+- [[Inverse Function Theorem]] and [[Implicit Function Theorem]]
+- Higher Dimensional [[Riemann Integration]]
+- [[Vector Fields]], [[Green’s Theorem]] in the plane, [[Stokes' Theorem]] on 2-dimensional surfaces and the [[Divergence Theorem]] in R3𝑅3
+- [[Taylor’s theorem]] in higher dimensions and maxima, minima and saddles
 
 # Reading List
 - R. Abraham, J. E. Marsden, T. Ratiu. Manifolds, _Tensor Analysis, and Applications_. Springer, second edition, 1988.
