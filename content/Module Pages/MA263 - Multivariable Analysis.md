@@ -13,7 +13,6 @@
 - [[MA149 - Linear Algebra]]: Rank-Nullity Theorem and its geometric interpretation, dependence of matrix representation of a linear map with respect to a choice of bases, determinant.
 - [[MA145 - Mathematical Methods and Modelling 2]]:  partial derivatives, multiple integrals, parameterisation of curves and surfaces, arclength and area, line and surface integrals, vector fields.
 - [[MA271 - Mathematical Analysis 3]]: Differentiable Functions from 𝑅𝑛 to 𝑅𝑚 and uniform convergence.
-
 # Content 
 - [[Differentiable Functions]] from 𝑅𝑛 to 𝑅𝑚
 - [[Inverse Function Theorem]] and [[Implicit Function Theorem]]

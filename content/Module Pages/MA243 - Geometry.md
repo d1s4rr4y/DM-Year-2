@@ -1,4 +1,4 @@
- Back to the [[Second Year|Course Overview]]
+Back to the [[Second Year|Course Overview]]
 - - -
 # Details
 [Module Link](https://courses.warwick.ac.uk/modules/2024/MA243-10)/[Module Webpage](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma243/)/[[MA243-Geometry.pdf|Lecture Notes]]
