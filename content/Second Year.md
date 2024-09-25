@@ -21,13 +21,13 @@
 
 | Code                                               | Name                                                                                                          | CATS | Term |
 | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ---- | ---- |
-| [[MA243 - Geometry \| MA243]]                      | [Geometry](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma243/)                       | 10   | 1    |
 | [[MA250 - Partial Differential Equations\|MA250]]  | [Partial Differential Equations](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma250/) | 10   | 1    |
 | [[MA252 - Combinatorial Optimisation\|MA252]]      | [Combinatorial Optimisation](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma252/)     | 10   | 2    |
 | [[MA257 - Introduction to Number Theory \| MA257]] | [Introduction to Number Theory](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma257/)  | 10   | 2    |
 | [[MA263 - Multivariable Analysis\|MA263]]          | [Multivariable Analysis](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma263/)         | 10   | 2    |
 | [[MA266 - Multilinear Algebra \| MA266]]           | [Multilinear Algebra](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma266/)            | 10   | 2    |
 | [[MA267 - Groups and Rings \| MA267]]              | [Groups and Rings](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/ext/ma267/)                 | 10   | 1    |
+| [[MA268 - Algebra 3 \| MA268]]                     | [Algebra 3](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma268/)                      | 10   | 1    |
 | [[MA271 - Mathematical Analysis 3\|MA271]]         | [Mathematical Analysis 3](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/ext/ma271/)          | 10   | 1    |
 # Notes 
 

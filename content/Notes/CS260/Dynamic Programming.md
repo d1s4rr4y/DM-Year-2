@@ -49,7 +49,7 @@ $$
 
 ### Finding an Optimal Alignment
 We can apply dynamic programming to the problem of finding an alignment which minimises $\Delta(X,Y)$ in the following way. In each step, we minimise against our three choices: 
-- Match the next two characters of each word together, thereby adding $\alpha_{x_i, y_j} to the edit distance. This leaves us with $i - 1$ and $j - 1$ unmatched characters in each word respectively (given we had $i$ and $j$ previously)
+- Match the next two characters of each word together, thereby adding $\alpha_{x_i, y_j}$ to the edit distance. This leaves us with $i - 1$ and $j - 1$ unmatched characters in each word respectively (given we had $i$ and $j$ previously)
 - Match the next character in the first word to a blank, thereby adding $\delta$ to the edit distance
 - Match the next character in the second word to a blank, again adding $\delta$ to the edit distance
 This can be represented by the following recursion:

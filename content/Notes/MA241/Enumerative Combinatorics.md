@@ -80,7 +80,7 @@ Recall that if $K$ and $N$ are sets, a *function* $f: K \to N$ assigns a single 
 > It is only possible to have such a function if $K$ has at most as many elements as $N$, i.e $|K| \le |N|$
 
 > [!warning] **DEFINITION** Surjective
-> A function $f: K \to N$ is *surjective*or *onto* if it takes each value at least once - i.e. if every $n \in N$ is equal to $f(k) for some $k \in K$. 
+> A function $f: K \to N$ is *surjective* or *onto* if it takes each value at least once - i.e. if every $n \in N$ is equal to $f(k) for some $k \in K$. 
 > It is only possible to have such a function if $K$ has at least as many elements as $N$, i.e. $|K| \ge |N|$
 
 > [!warning] **DEFINITION** Bijective
