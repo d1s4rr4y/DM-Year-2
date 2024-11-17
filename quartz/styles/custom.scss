@@ -7,3 +7,31 @@ em {
 strong { 
     color: #907AA9 !important
 }
+
+
+.content-container {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 128px;
+}
+
+.article-header {
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 25px;
+    border: 1px solid #5687d1;
+    background: #6096e6;
+
+    h1 {
+        color: #f9f5e9;
+        padding: 0px;
+        margin: 0;
+    }
+
+    p {
+        color: #f9f5e9;
+        padding: 0;
+        padding-top: 5px; 
+        margin: 0;
+    }
+}
