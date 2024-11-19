@@ -1,11 +1,46 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { FileNode } from "./quartz/components/ExplorerNode"
+import { SimpleSlug } from "./quartz/util/path"
+
+
+const homepageTitle = "D1s4rr4y's Notebook!"
+const modifiedListTitle = "All-files-chronologically-modified"
+const mapTitle = "Map"
+const tagsToRemove = ["graph-exclude", "explorer-exclude", "backlinks-exclude"]
+
+const graphConfig = {
+  localGraph: {
+    removeTags: tagsToRemove,
+    excludeTags: ["graph-exclude"]
+  },
+  globalGraph: {
+    removeTags: tagsToRemove,
+    excludeTags: ["graph-exclude"]
+  }
+} 
+
+const tagListConfig = {
+  excludeTags: tagsToRemove
+} 
+
+const explorerConfig = {
+  filterFn: (node: FileNode) => node.name !== "tags" && !(node.file?.frontmatter?.tags?.includes("explorer-exclude") === true)
+} 
+
+const backlinksConfig = {
+  excludeTags: tagsToRemove
+}
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  footer: Component.Footer(),
+  footer: Component.Footer({
+    links: {
+      GitHub: "https://github.com/d1s4rr4y/DM-Year-2"
+    }
+  }),
 }
 
 // components for pages that display a single page (e.g. a single note)
@@ -18,41 +53,11 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(
-      Component.Explorer({
-        sortFn: (a, b) => {
-          const emojis =
-            /([\u2700-\u27BF]|[\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDD10-\uDDFF])/g
-          const a_name = a.name.replace(emojis, "").trim()
-          const a_dname = a.displayName.replace(emojis, "").trim()
-          const b_name = b.name.replace(emojis, "").trim()
-          const b_dname = b.displayName.replace(emojis, "").trim()
-          // Sort order: folders first, then files. Sort folders and files alphabetically
-          if (/^.*Home$/.test(a_dname)) {
-            return -1
-          }
-          if (/^.*Home$/.test(b_dname)) {
-            return 1
-          }
-          if ((!a.file && !b.file) || (a.file && b.file)) {
-            // numeric: true: Whether numeric collation should be used, such that "1" < "2" < "10"
-            // sensitivity: "base": Only strings that differ in base letters compare as unequal. Examples: a ≠ b, a = á, a = A
-            return a_dname.localeCompare(b_dname, undefined, {
-              numeric: true,
-              sensitivity: "base",
-            })
-          }
-          if (a.file && !b.file) {
-            return 1
-          } else {
-            return -1
-          }
-        },
-      }),
-    ),
+    Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
     Component.TableOfContents(),
+    Component.Graph(graphConfig),
   ],
 }
 
@@ -62,9 +67,14 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.Row([
+      Component.Map(),
+      Component.Darkmode(),
+      Component.Search(),
+    ]),
+    // Component.Search(),
+    // Component.Darkmode(),
+    // Component.DesktopOnly(Component.Explorer()),
   ],
   right: [],
 }
