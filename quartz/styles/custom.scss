@@ -1,4 +1,6 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
+@use "colors";
 
 .forced-row { 
     display: flex;
@@ -19,11 +21,13 @@
 }
 
 em { 
-    color: #B25A89 !important
+    color: #B25A89 !important;
+    font-style: italic;
 }
 
 strong { 
-    color: #907AA9 !important
+    color: #907AA9 !important;
+    font-style: bold;
 }
 
 
@@ -53,3 +57,17 @@ strong {
         margin: 0;
     }
 }
+
+// NEW CODE
+
+.explorer {
+    text-align: center;
+
+    & a {
+        text-decoration: none;
+    } 
+
+    & .visited {
+        color: inherit;
+    }
+} 
