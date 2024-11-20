@@ -87,6 +87,7 @@
     "title-case": "^4.3.2",
     "to-vfile": "^8.0.0",
     "toml": "^3.0.0",
+    "twemoji": "^14.0.2",
     "unified": "^11.0.4",
     "unist-util-visit": "^5.0.0",
     "vfile": "^6.0.1",
