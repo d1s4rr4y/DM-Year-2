@@ -1,25 +1,26 @@
+import chalk from "chalk"
+import { Root } from "hast"
 import path from "path"
 import { visit } from "unist-util-visit"
-import { Root } from "hast"
 import { VFile } from "vfile"
-import { QuartzEmitterPlugin } from "../types"
-import { QuartzComponentProps } from "../../components/types"
-import HeaderConstructor from "../../components/Header"
-import BodyConstructor from "../../components/Body"
-import { pageResources, renderPage } from "../../components/renderPage"
-import { FullPageLayout } from "../../cfg"
-import { Argv } from "../../util/ctx"
-import { FilePath, isRelativeURL, joinSegments, pathToRoot } from "../../util/path"
+
 import { defaultContentPageLayout, sharedPageComponents } from "../../../quartz.layout"
+import { FullPageLayout } from "../../cfg"
 import { Content } from "../../components"
-import chalk from "chalk"
-import { write } from "./helpers"
+import BodyConstructor from "../../components/Body"
+import HeaderConstructor from "../../components/Header"
+import { pageResources, renderPage } from "../../components/renderPage"
+import { QuartzComponentProps } from "../../components/types"
 import DepGraph from "../../depgraph"
+import { Argv } from "../../util/ctx"
+import { FilePath, FullSlug, isRelativeURL, joinSegments, pathToRoot } from "../../util/path"
+import { QuartzEmitterPlugin } from "../types"
+import { write } from "./helpers"
 
 // get all the dependencies for the markdown file
 // eg. images, scripts, stylesheets, transclusions
 const parseDependencies = (argv: Argv, hast: Root, file: VFile): string[] => {
-  const dependencies: string[] = []
+  const dependencies: FilePath[] = []
 
   visit(hast, "element", (elem): void => {
     let ref: string | null = null
@@ -40,12 +41,14 @@ const parseDependencies = (argv: Argv, hast: Root, file: VFile): string[] => {
       return
     }
 
-    let fp = path.join(file.data.filePath!, path.relative(argv.directory, ref)).replace(/\\/g, "/")
+    let fp = path
+      .join(file.data.filePath ?? "", path.relative(argv.directory, ref))
+      .replace(/\\/g, "/")
     // markdown files have the .md extension stripped in hrefs, add it back here
     if (!fp.split("/").pop()?.includes(".")) {
       fp += ".md"
     }
-    dependencies.push(fp)
+    dependencies.push(fp as FilePath)
   })
 
   return dependencies
@@ -68,12 +71,13 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
     getQuartzComponents() {
       return [Head, Header, Body, ...header, ...beforeBody, pageBody, ...left, ...right, Footer]
     },
-    async getDependencyGraph(ctx, content, _resources) {
+    async getDependencyGraph(ctx, content) {
       const graph = new DepGraph<FilePath>()
 
       for (const [tree, file] of content) {
-        const sourcePath = file.data.filePath!
-        const slug = file.data.slug!
+        if (!file.data.filePath) continue
+        const sourcePath = file.data.filePath
+        const slug = file.data.slug as FullSlug
         graph.addEdge(sourcePath, joinSegments(ctx.argv.output, slug + ".html") as FilePath)
 
         parseDependencies(ctx.argv, tree as Root, file).forEach((dep) => {
@@ -90,7 +94,7 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
 
       let containsIndex = false
       for (const [tree, file] of content) {
-        const slug = file.data.slug!
+        const slug = file.data.slug as FullSlug
         if (slug === "index") {
           containsIndex = true
         }
@@ -98,7 +102,7 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
         const externalResources = pageResources(pathToRoot(slug), resources)
         const componentData: QuartzComponentProps = {
           ctx,
-          fileData: file.data,
+          fileData: file.data ?? {},
           externalResources,
           cfg,
           children: [],
@@ -106,11 +110,11 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
           allFiles,
         }
 
-        const content = renderPage(cfg, slug, componentData, opts, externalResources)
+        const content = renderPage(cfg, slug as FullSlug, componentData, opts, externalResources)
         const fp = await write({
           ctx,
           content,
-          slug,
+          slug: file.data.slug as FullSlug,
           ext: ".html",
         })
 

@@ -4,6 +4,12 @@ import { ValidLocale } from "./i18n"
 import { PluginTypes } from "./plugins/types"
 import { Theme } from "./util/theme"
 
+type Page = { 
+  slug: string
+  title: string
+}
+
+
 export type Analytics =
   | null
   | {
@@ -56,6 +62,10 @@ export interface GlobalConfiguration {
    */
   baseUrl?: string
   theme: Theme
+
+  navbar: {
+    pages: Page[]
+  }
   /**
    * Allow to translate the date in the language of your choice.
    * Also used for UI translation (default: en-US)
@@ -83,4 +93,4 @@ export interface FullPageLayout {
 }
 
 export type PageLayout = Pick<FullPageLayout, "beforeBody" | "left" | "right">
-export type SharedLayout = Pick<FullPageLayout, "head" | "header" | "footer">
+export type SharedLayout = Pick<FullPageLayout, "head" | "header" | "left" | "footer">

@@ -1,9 +1,208 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
+@use "colors";
+@use "table";
+
+.forced-row { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    top: 0;
+    box-sizing: border-box;
+    padding: 0;
+    position: relative;
+
+    & .map, .darkmode {
+        margin: 0.4rem;
+    }
+
+    // @media all and ($mobile) {
+    //     justify-content: flex-end;
+    // }
+}
+
+// For usage in the middle of a paragraph
+.dropcap {
+    // The background glyph
+    font-family: "EBGaramondInitialsF1", serif;
+    color: var(--lightgray);
+    position: relative;
+    text-transform: uppercase;
+    margin-right: 0.05rem;
+    vertical-align: -0.15rem;
+  
+    &::before {
+      text-transform: uppercase;
+  
+      // The foreground glyph
+      font-family: "EBGaramondInitialsF2", serif;
+      color: var(--dark);
+      content: attr(data-first-letter);
+      position: absolute !important;
+    }
+  }
+  
+  article[data-use-dropcap="true"] {
+    --dropcap-vertical-offset: 0.15rem;
+    --dropcap-font-size: 3.95rem;
+  
+    & > p:first-of-type {
+      position: relative;
+      min-height: 4.2rem;
+    }
+  
+    & > p:first-of-type::before {
+      content: attr(data-first-letter);
+      text-transform: uppercase;
+      position: absolute;
+      top: var(--dropcap-vertical-offset);
+      left: 0;
+      font-size: var(--dropcap-font-size);
+      line-height: 1;
+      padding-right: 0.1em;
+      font-family: "EBGaramondInitialsF2", serif;
+      overflow-wrap: anywhere;
+      color: white;
+      fill: white;
+      visibility: visible;
+      z-index: 999;
+    }
+  
+    & > p:first-of-type::first-letter {
+      padding-top: var(--dropcap-vertical-offset);
+      text-transform: uppercase;
+      font-style: normal !important;
+      float: left;
+      pointer-events: none; /* Ensure it doesn't interfere with user interactions */
+      color: var(--lightgray);
+      font-size: var(--dropcap-font-size);
+      line-height: 1;
+      padding-right: 0.1em;
+      font-family: "EBGaramondInitialsF1", serif;
+      font-weight: 500 !important;
+    }
+  
+    & > p:first-of-type::first-line {
+      font-family: EBGaramondSC, serif !important;
+    }
+  
+    & > p:first-of-type em,
+    & > p:first-of-type b,
+    & > p:first-of-type strong {
+      font-family: inherit !important;
+    }
+  
+    & > p:first-of-type .small-caps {
+      font-family: EBGaramondSC, serif !important;
+    }
+  
+    & > p[data-first-letter="f"]::before,
+    & > p[data-first-letter="F"]::before {
+      padding-left: 0.025em;
+    }
+  }
+  
+  // Add indent after the first line
+  .center li,
+  #backlinks li,
+  .popover-inner li {
+    text-indent: calc(-0.25 * $base-margin);
+  }
+  
+  // Make sure the bullet points don't feel choked
+  .center li,
+  .popover-inner li {
+    margin-bottom: calc(0.5 * $base-margin);
+  }
+  
+  #backlinks {
+    position: relative;
+  
+    & li {
+      &::marker {
+        color: var(--lightgray);
+      }
+  
+      & a {
+        text-decoration-thickness: 0.1px;
+        background-color: transparent;
+        color: var(--gray);
+      }
+    }
+  }
+  
+  // Mermaid
+  // stylelint-disable-next-line selector-class-pattern
+  .edgeLabel > div, // stylelint-disable-next-line 
+  .edgeLabel > p {
+    align-items: baseline !important;
+    background-color: transparent !important;
+  }
+  
+  .flowchart {
+    display: block !important; // Allows the diagram to be centered
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .cluster {
+    & rect {
+      transform: translateY(calc(-0.5 * $base-margin));
+    }
+  
+    & .cluster-label {
+      text-decoration: underline; // Bolding makes the width too small
+    }
+  }
 
 em { 
-    color: #B25A89 !important
+    color: #B25A89 !important;
+    font-style: italic;
 }
 
 strong { 
-    color: #907AA9 !important
+    color: #907AA9 !important;
+    font-style: bold;
 }
+
+
+.content-container {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 128px;
+}
+
+.article-header {
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 25px;
+    border: 1px solid #5687d1;
+    background: #6096e6;
+
+    h1 {
+        color: #f9f5e9;
+        padding: 0px;
+        margin: 0;
+    }
+
+    p {
+        color: #f9f5e9;
+        padding: 0;
+        padding-top: 5px; 
+        margin: 0;
+    }
+}
+
+// NEW CODE
+
+.explorer {
+    text-align: center;
+
+    & a {
+        text-decoration: none;
+    } 
+
+    & .visited {
+        color: inherit;
+    }
+} 

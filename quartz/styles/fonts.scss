@@ -1,0 +1,246 @@
+@use "./variables.scss" as *;
+
+@function calculate-scale($steps) {
+  @return calc(var(--base-font-size) * pow(var(--scale-ratio), $steps));
+}
+
+:root {
+  --base-line-height: 1.4;
+  --scale-ratio: 1.2;
+
+  // Responsive font sizes
+  @media screen and (min-width: $tablet-breakpoint) {
+    --base-font-size: 24px;
+  }
+
+  @media screen and (max-width: $tablet-breakpoint) {
+    --base-font-size: 22px;
+  }
+
+  @media screen and (max-width: $mobile-breakpoint) {
+    --base-font-size: 20px;
+  }
+
+  font-size: var(--base-font-size);
+  text-rendering: geometricprecision;
+
+  --text-size-70: #{calculate-scale(-3)};
+  --text-size-80: #{calculate-scale(-2)};
+  --text-size-85: #{calculate-scale(-1.5)};
+  --text-size-90: #{calculate-scale(-1)};
+  --text-size-100: #{calculate-scale(0)};
+  --text-size-200: #{calculate-scale(1)};
+  --text-size-300: #{calculate-scale(1)};
+  --text-size-400: #{calculate-scale(1)};
+  --text-size-500: #{calculate-scale(2)};
+  --text-size-600: #{calculate-scale(3)};
+  --text-size-700: #{calculate-scale(4)};
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin-top: calc(3 * #{$base-margin});
+  margin-bottom: 1rem;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: -0.022em;
+
+  .popover {
+    letter-spacing: initial;
+  }
+}
+
+// Directly using CSS variables in SCSS
+.text-size-80 {
+  font-size: var(--text-size-80);
+}
+
+.text-size-90 {
+  font-size: var(--text-size-90);
+}
+
+.text-size-100 {
+  font-size: var(--text-size-100);
+}
+
+.text-size-200 {
+  font-size: var(--text-size-200);
+}
+
+.text-size-300 {
+  font-size: var(--text-size-300);
+}
+
+.text-size-400 {
+  font-size: var(--text-size-400);
+}
+
+.text-size-500 {
+  font-size: var(--text-size-500);
+}
+
+.text-size-600 {
+  font-size: var(--text-size-600);
+}
+
+.text-size-700 {
+  font-size: var(--text-size-700);
+}
+
+h1,
+.h1 {
+  font-size: var(--text-size-700);
+}
+
+h2,
+.h2 {
+  font-size: var(--text-size-600);
+}
+
+h3,
+.h3 {
+  font-size: var(--text-size-500);
+}
+
+h4,
+.h4 {
+  font-size: var(--text-size-400);
+}
+
+h5,
+.h5 {
+  font-size: var(--text-size-300);
+}
+
+h6,
+.h6 {
+  font-size: var(--text-size-200);
+}
+
+// FONT SETUP
+$fonts-dir: "/static/styles/fonts";
+
+@mixin font-face($font-family, $file-name, $ext: ".woff2", $font-features: none) {
+  @font-face {
+    font-family: $font-family;
+    font-optical-sizing: auto;
+    font-feature-settings: $font-features;
+    src: url("#{$fonts-dir}/#{$file-name}#{$ext}");
+    font-display: swap;
+  }
+}
+
+@include font-face("FiraCode", "firacode-vf", ".woff2");
+@include font-face("EBGaramond", "EBGaramond/EBGaramond08-Regular", ".woff2");
+@include font-face("EBGaramondInitialsF1", "EBGaramond/EBGaramond-InitialsF1", ".woff2");
+@include font-face("EBGaramondInitialsF2", "EBGaramond/EBGaramond-InitialsF2", ".woff2");
+
+@font-face {
+  font-family: EBGaramondItalic;
+  src: url("#{$fonts-dir}/EBGaramond/EBGaramond08-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+  font-optical-sizing: auto;
+  font-display: swap;
+}
+
+@include font-face("EBGaramondOriginal", "EBGaramond/EBGaramond08-Regular-original", ".woff2");
+@include font-face("EBGaramond12", "EBGaramond/EBGaramond12-Regular", ".woff2");
+@include font-face("EBGaramond12Italic", "EBGaramond/EBGaramond12-Regular", ".woff2");
+@include font-face("EBGaramondSC", "EBGaramond/EBGaramondSC08-Regular", ".woff2");
+
+// Less commonly used
+@include font-face("DejaVuSerifCondensed-Bold", "DejaVuSerifCondensed-Bold-subset", ".woff2");
+@include font-face("BadHandwriting", "badhandwriting-webfont", ".woff2");
+@include font-face("Scary", "DarkmodeRegular", ".woff2");
+@include font-face("Elvish", "tengwar_annatar/TengwarAnnatar", ".woff2");
+@include font-face("ElvishItalic", "tengwar_annatar/TengwarAnnatar-Italic", ".woff2");
+
+body {
+  --font-monospace: "FiraCode", "JetBrains Mono", "Courier New", monospace;
+  --font-monospace-theme: "FiraCode", "JetBrains Mono", "Courier New", monospace;
+  --font-text-theme: "EBGaramond", garamond, "Times New Roman", serif;
+  --font-text: "EBGaramond", garamond, "Times New Roman", serif;
+  --font-text-original: "EBGaramondOriginal";
+  --font-text-italic: "EBGaramondItalic", "EBGaramond";
+  --font-text-header: "EBGaramond", garamond, "Times New Roman", serif;
+  --font-text-sc: "EBGaramondSC", "EBGaramond:smcp", "Garamond SC", small-caps, serif;
+  --font-text-swash: "EBGaramond:+swsh", cursive;
+
+  line-height: var(--base-line-height);
+  font-family: var(--font-text);
+  font-feature-settings:
+    "liga" 1,
+    "cv11" 1;
+  font-variant-numeric: oldstyle-nums;
+
+  // Code should contain full-height numbers
+  & code,
+  & pre {
+    font-variant-numeric: lining-nums;
+  }
+}
+
+.elvish {
+  font-family: Elvish, serif;
+  line-height: 2.2;
+  position: relative;
+
+  & em,
+  em & {
+    font-family: ElvishItalic, serif;
+  }
+
+  // Show underlying English text
+  transition:
+    opacity 600ms,
+    color 300ms;
+
+  &:hover {
+    color: transparent;
+
+    &::after {
+      position: absolute;
+      left: 0;
+      width: max-content;
+      content: attr(data-content);
+      color: var(--dark);
+      font-family: var(--font-text);
+      opacity: 1;
+      text-shadow: 0 0 10px color-mix(in srgb, var(--yellow) 50%, transparent);
+    }
+  }
+}
+
+.corrupted {
+  font-family: Scary, serif;
+  font-style: normal;
+}
+
+.fraction {
+  font-variant-numeric: stacked-fractions;
+  font-feature-settings: "frac" 1;
+  line-height: normal;
+  font-size: 1.2rem;
+  font-family: "EBGaramond12", serif;
+  vertical-align: -10%;
+}
+
+// Bolding text
+b,
+strong,
+.callout-title-inner,
+dt {
+  text-shadow: 0.3px 0.3px;
+  font-weight: 400 !important; // Normal font weight -- otherwise would be eg 600
+}

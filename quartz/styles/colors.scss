@@ -1,0 +1,129 @@
+:root[saved-theme = "dark"],
+.dark-mode {
+    // Catppuccin Frappe
+  --rosewater: #f2d5cf;
+  --pink: #fba7e4;
+  --red: #de585a;
+  --orange: #db8942;
+  --yellow: #e5c890;
+  --green: #a6d189;
+  --teal: #81c8be;
+  --sky: #99d1db;
+  --blue: #8caaee;
+  --lavender: #8788d3;
+  --purple: #a86de1;
+  --text: #c6d0f5;
+  --subtext-1: #b5bfe2;
+  --subtext-0: #a5adce;
+  --overlay-2: #949cbb;
+  --overlay-1: #838ba7;
+  --overlay-0: #737994;
+  --surface-2: #626880;
+  --surface-1: #51576d;
+  --surface-0: #414559;
+  --base: #303446;
+  --mantle: #292c3c;
+  --crust: #232634;
+  --color-visited: color-mix(in srgb, var(--red) 50%, var(--blue));
+
+  // Theme-specific colors (from quartz.config.ts darkMode)
+  // --light: #303446; // frappeColors.base
+  // --lightgray: #737994; // frappeColors.overlay-0
+  // --gray: #949cbb; // frappeColors.overlay-2
+  // --darkgray: #b5bfe2; // frappeColors.subtext-1
+  // --dark: #c6d0f5; // frappeColors.text
+  // --secondary: #8caaee; // frappeColors.blue
+  // --tertiary: #99d1db; // frappeColors.sky
+  // --highlight: #949cbb30; // frappeColors.overlay-2 at 20% opacity
+
+  --light: #2E3440;
+  --lightgray: #72B8C5;
+  --gray: #72B8C5;
+  --darkgray: #ECEFF4;
+  --dark: #B25A89;
+  --secondary: #72B8C5;
+  --tertiary: #5B9CA8;
+  --highlight: rgba(91, 156, 168, 0.30);
+
+  & img,
+  & video {
+    filter: grayscale(50%);
+  }
+}
+
+:root[saved-theme="light"],
+.light-mode {
+  --rosewater: #dc8a78;
+  --flamingo: #dd7878;
+  --pink: #ee7ed0;
+  --amaranth: #9f2b68; // I love this song by Nightwish
+  --red: #be415c;
+  --orange: #e08c43;
+  --yellow: #8f8620;
+  --green: #40a02b;
+  --teal: #179299;
+  --sky: #008bc3;
+  --blue: #406ecc;
+  --lavender: #7287fd;
+  --purple: #6f42c1;
+  --text: #4c4f69;
+  --subtext-1: #5c5f77;
+  --subtext-0: #6c6f85;
+  --overlay-2: #7c7f93;
+  --overlay-1: #8c8fa1;
+  --overlay-0: #9ca0b0;
+  --surface-2: #acb0be;
+  --surface-1: #bcc0cc;
+  --surface-0: #ccd0da;
+  --base: #eff1f5;
+  --mantle: #e6e9ef;
+  --crust: #dce0e8;
+  --color-visited: color-mix(in srgb, var(--amaranth) 47%, var(--blue));
+
+  // Theme-specific colors (from quartz.config.ts lightMode)
+  --light: #eff1f5; // latteColors.base
+  --lightgray: #9ca0b0; // latteColors.overlay-0
+  --gray: #7c7f93; // latteColors.overlay-2
+  --darkgray: #5c5f77; // latteColors.subtext-1
+  --dark: #4c4f69; // latteColors.text
+  --secondary: #1e66f5; // latteColors.blue
+  --tertiary: #04a5e5; // latteColors.sky
+  --highlight: #7c7f9324; // latteColors.overlay-2 at 20% opacity
+
+  & img,
+  & video {
+    mix-blend-mode: multiply;
+  }
+}
+
+:root {
+    --color-background: color-mix(in srgb, var(--lightgray) 19%, var(--light));
+    --lightergray: color-mix(in srgb, transparent 70%, var(--lightgray));
+    --lightestgray: color-mix(in srgb, transparent 90%, var(--lightgray));
+    --darkergray: color-mix(in srgb, var(--gray) 25%, var(--dark));
+    --color-link: light-dark(color-mix(in srgb, var(--secondary) 30%, var(--dark)), var(--secondary));
+  
+    @each $color in ("red", "pink", "green", "teal", "blue", "purple", "orange", "yellow") {
+      --background-#{$color}: color-mix(in srgb, var(--#{$color}) 30%, var(--light));
+      --border-#{$color}: color-mix(in srgb, var(--#{$color}) 50%, var(--light));
+    }
+  }
+  
+  .dark-mode,
+  .light-mode {
+    background-color: var(--light) !important;
+    color: var(--dark) !important;
+  }
+  
+  // Mermaid
+  @each $color in ("red", "green", "blue", "yellow", "purple", "orange") {
+    rect {
+      color: var(--dark) !important;
+      fill: var(--light) !important;
+      stroke: var(--lightgray) !important;
+    }
+    .#{$color} > rect {
+      fill: var(--background-#{$color}) !important;
+      stroke: var(--border-#{$color}) !important;
+    }
+}

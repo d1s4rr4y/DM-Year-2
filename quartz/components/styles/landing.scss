@@ -1,0 +1,86 @@
+.landing-header {
+    font-size: 48px;
+    margin: 64px 0 8px 0;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.page-subhead {
+    font-size: 14px;
+    margin-bottom: 48px;
+    text-transform: uppercase;
+} 
+
+// ISSUE CARDS  
+.issue-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2);
+    gap: 36px;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid #00000015;
+    border-radius: 8px;
+    aspect-ratio: 8.5 / 11;
+    padding: 12px;
+    position: relative;
+    transition: transform 0.3s;
+    overflow: hidden;
+    min-width: 16px;
+    cursor: pointer;
+} 
+
+.header-card {
+    width: 100px;
+    margin: 1em 0 0;
+    display: inline-block;
+}
+
+.card-title {
+    font-size: 36px;
+    margin: 0 0 8px 0;
+    line-height: normal;
+    color: white;
+} 
+
+.card-subhead {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: monospace;
+    margin-top: 0;
+    color: white;
+} 
+
+.card:hover {
+    transform: scale(1.02);
+} 
+
+
+
+
+
+// COLOURS
+.card-coming {
+    background: #cfccc4;
+} 
+
+.card-1 {
+    background: #649aea;
+    // background-image: url("./static/1-noise.png");
+    background-size: cover;
+    overflow: visible;
+}
+
+.card-2 {
+    background: #aab172;
+    // background-image: url("./static/2-noise.png");
+    background-size: cover;
+}
+
+.card-3 {
+    background: #bf7d1a;
+    background-image: url("./static/3-noise.png");
+    background-size: cover;
+} 

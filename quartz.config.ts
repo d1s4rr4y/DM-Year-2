@@ -1,21 +1,23 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
-/**
- * Quartz 4.0 Configuration
- *
- * See https://quartz.jzhao.xyz/configuration for more information.
- */
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "DM Year 2",
     enableSPA: true,
-    enablePopovers: true,
+    enablePopovers: false,
     analytics: null,
     locale: "en-US",
     baseUrl: "d1s4rr4y.github.io/DM-Year-2",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
+    navbar: {
+      pages: [
+        { title: "About Me", slug: "/"},
+        { title: "First Year", slug: "/First-Year"},
+        { title: "Second Year", slug: "/Second-Year"},
+      ],
+    },
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -61,11 +63,10 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
+      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: true, parseArrows: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
-      Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
       Plugin.HardLineBreaks(),
     ],

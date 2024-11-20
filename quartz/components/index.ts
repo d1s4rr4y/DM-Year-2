@@ -19,6 +19,10 @@ import DesktopOnly from "./DesktopOnly"
 import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
+import Map from "./_Map"
+import Row from "./_Row"
+import Navbar from "./_Navbar"
+
 
 export {
   ArticleTitle,
@@ -42,4 +46,7 @@ export {
   RecentNotes,
   NotFound,
   Breadcrumbs,
+  Row,
+  Map,
+  Navbar,
 }
