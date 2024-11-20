@@ -7,6 +7,7 @@
 **Status:** Core
 **Assessment:** *80%* Exam, *20%* Problem Sets
 - [Past Papers](https://warwick.ac.uk/exampapers?q=CS254)
+
 # Content 
 - *[[Introduction to graphs]]:* undirected graphs, directed graphs, weighted graphs, graph representation and special classes of graphs (trees, planar graphs etc.). Applications of graphs (in telecommunications, networking etc.)
 - *[[Basic algorithmic techniques for graph problems]]:* graph traversals (DFS and BFS), topological sorting, Euler tours.

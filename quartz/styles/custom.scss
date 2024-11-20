@@ -1,5 +1,23 @@
 @use "./base.scss";
 
+.forced-row { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    top: 0;
+    box-sizing: border-box;
+    padding: 0;
+    position: relative;
+
+    & .map, .darkmode {
+        margin: 0.4rem;
+    }
+
+    @media all and ($mobile) {
+        justify-content: flex-end;
+    }
+}
+
 em { 
     color: #B25A89 !important
 }
