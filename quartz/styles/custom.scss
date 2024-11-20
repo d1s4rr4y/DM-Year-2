@@ -1,6 +1,7 @@
 @use "./base.scss";
 @use "./variables.scss" as *;
 @use "colors";
+@use "table";
 
 .forced-row { 
     display: flex;
@@ -15,9 +16,9 @@
         margin: 0.4rem;
     }
 
-    @media all and ($mobile) {
-        justify-content: flex-end;
-    }
+    // @media all and ($mobile) {
+    //     justify-content: flex-end;
+    // }
 }
 
 em { 

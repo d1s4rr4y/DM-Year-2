@@ -11,6 +11,13 @@ const config: QuartzConfig = {
     baseUrl: "d1s4rr4y.github.io/DM-Year-2",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
+    navbar: {
+      pages: [
+        { title: "About Me", slug: "/about"},
+        { title: "First Year", slug: "/First-Year"},
+        { title: "Second Year", slug: "/Second-Year"},
+      ],
+    },
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
