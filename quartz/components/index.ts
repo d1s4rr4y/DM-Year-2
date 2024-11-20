@@ -21,6 +21,7 @@ import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Map from "./_Map"
 import Row from "./_Row"
+import Navbar from "./_Navbar"
 
 
 export {
@@ -47,4 +48,5 @@ export {
   Breadcrumbs,
   Row,
   Map,
+  Navbar,
 }

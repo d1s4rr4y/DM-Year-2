@@ -36,6 +36,7 @@ const backlinksConfig = {
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
+  left: [Component.Navbar()],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/d1s4rr4y/DM-Year-2"
@@ -49,32 +50,38 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
   ],
   left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.Navbar(),
   ],
   right: [
-    Component.TableOfContents(),
-    Component.Graph(graphConfig),
-  ],
+    Component.DesktopOnly(Component.TableOfContents()),
+    Component.ContentMeta(),
+  ]
+  // left: [
+  //   Component.PageTitle(),
+  //   Component.MobileOnly(Component.Spacer()),
+  //   Component.Search(),
+  //   Component.Darkmode(),
+  //   Component.DesktopOnly(Component.Explorer()),
+  // ],
+  // right: [
+  //   Component.TableOfContents(),
+  //   Component.Graph(graphConfig),
+  // ],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
+  // beforeBody: [Component.ArticleTitle()],
+  // left: [
+  //   Component.PageTitle(),
+  //   Component.MobileOnly(Component.Spacer()),
+  //   Component.Search(),
+  //   Component.Darkmode(),
+  //   Component.DesktopOnly(Component.Explorer()),
+  // ],
+  // right: [],
+
   beforeBody: [Component.ArticleTitle()],
-  left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Row([
-      Component.Map(),
-      Component.Darkmode(),
-      Component.Search(),
-    ]),
-    // Component.Search(),
-    // Component.Darkmode(),
-    // Component.DesktopOnly(Component.Explorer()),
-  ],
-  right: [],
+  left: [Component.Navbar()],
+  right: [], 
 }

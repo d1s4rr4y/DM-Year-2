@@ -5,7 +5,7 @@ const config: QuartzConfig = {
   configuration: {
     pageTitle: "DM Year 2",
     enableSPA: true,
-    enablePopovers: true,
+    enablePopovers: false,
     analytics: null,
     locale: "en-US",
     baseUrl: "d1s4rr4y.github.io/DM-Year-2",
@@ -49,6 +49,8 @@ const config: QuartzConfig = {
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "filesystem"],
       }),
+      // Plugin.TextFormattingImprovement(),
+      // Plugin.Twemoji(),
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
@@ -56,11 +58,16 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
+      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: true, parseArrows: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
+      // Plugin.ConvertEmphasis(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
+      // Plugin.TagAcronyms(),
+      // Plugin.TroutOrnamentHr(),
+      // Plugin.AfterArticle(),
+      // Plugin.ColorVariables(),
       Plugin.Latex({ renderEngine: "katex" }),
       Plugin.HardLineBreaks(),
     ],
