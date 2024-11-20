@@ -1,3 +1,4 @@
+$pageWidth: 750px;
 $page-width: 750px;
 $mobileBreakpoint: 600px;
 $tabletBreakpoint: 1000px;
@@ -8,8 +9,16 @@ $right-panel-begins: 0px;
 $margins-begin: 825px;
 
 $topSpacing: 4.5rem;
-$fullPageWidth: $pageWidth + 2 * $sidePanelWidth;
+$fullPageWidth: $page-width + 2 * $sidePanelWidth;
+$full-page-width: $page-width + $side-panel-width + $right-width;
+$base-margin: 0.5rem;
 
 $boldWeight: 700;
+$bold-weigt: 700;
 $semiBoldWeight: 600;
+$semi-bold-weight: 600;
 $normalWeight: 400;
+$normal-weight: 400;
+
+
+$line-height: 1.8rem;
