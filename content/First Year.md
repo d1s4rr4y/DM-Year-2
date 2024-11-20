@@ -1,3 +1,8 @@
+---
+title: Overview
+no_dropcap: true
+---
+
 # Details
 [Course Structure](https://warwick.ac.uk/fac/sci/dcs/teaching/courses/dm1-2324)
 - The core load for *first year* is 105 CATS

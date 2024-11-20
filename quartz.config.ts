@@ -13,7 +13,7 @@ const config: QuartzConfig = {
     defaultDateType: "created",
     navbar: {
       pages: [
-        { title: "About Me", slug: "/about"},
+        { title: "About Me", slug: "/"},
         { title: "First Year", slug: "/First-Year"},
         { title: "Second Year", slug: "/Second-Year"},
       ],
@@ -56,8 +56,6 @@ const config: QuartzConfig = {
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "filesystem"],
       }),
-      // Plugin.TextFormattingImprovement(),
-      // Plugin.Twemoji(),
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
@@ -68,13 +66,7 @@ const config: QuartzConfig = {
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: true, parseArrows: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      // Plugin.ConvertEmphasis(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
-      Plugin.Description(),
-      // Plugin.TagAcronyms(),
-      // Plugin.TroutOrnamentHr(),
-      // Plugin.AfterArticle(),
-      // Plugin.ColorVariables(),
       Plugin.Latex({ renderEngine: "katex" }),
       Plugin.HardLineBreaks(),
     ],

@@ -96,7 +96,7 @@ export default (() => {
         <ul>
           {links}
           <li>
-            <a href="https://turntrout.substack.com/subscribe">Subscribe</a>
+            {/* <a href="https://turntrout.substack.com/subscribe">Subscribe</a> */}
           </li>
         </ul>
       </nav>
