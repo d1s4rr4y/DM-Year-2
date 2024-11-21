@@ -33033,3 +33033,1263 @@
   level: 'info',
   timestamp: '11/20/2024, 7:12:31 PM PST'
 }
+{
+  message: 'TableOfContents component initialized',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:55 PM PST'
+}
+{
+  message: 'TableOfContents component initialized',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:55 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/First Year.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:57 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Second Year.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:57 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Lecture Notes/CS260 - Algorithms/Lecture 1.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:57 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Lecture Notes/CS260 - Algorithms/Lecture 1.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:57 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Lecture Notes/MA241 - Combinatorics/Lecture 1.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:57 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Lecture Notes/MA241 - Combinatorics/Lecture 1.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:57 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/CS254 -  Algorithmic Graph Theory.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:57 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/CS259 - Formal Languages.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:57 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/CS260 - Algorithms.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:57 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/MA222 - Metric Spaces.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:57 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/MA241 - Combinatorics.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:57 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/MA243 - Geometry.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:57 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/MA250 - Partial Differential Equations.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/MA252 - Combinatorial Optimisation.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/MA257 - Introduction to Number Theory.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/MA263 - Multivariable Analysis.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/MA266 - Multilinear Algebra.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/MA267 - Groups and Rings.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/MA268 - Algebra 3.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/MA271 - Mathematical Analysis 3.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/CS254/Basic algorithmic techniques for graph problems.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/CS254/Basic algorithmic techniques for graph problems.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/CS254/Further algorithmic problems on graphs.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/CS254/Further algorithmic problems on graphs.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/CS254/Introduction to graphs.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/CS254/Introduction to graphs.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/CS259/Context-free languages.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/CS259/Context-free languages.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/CS259/Regular languages.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/CS259/Regular languages.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/CS259/Turing-recognisable languages.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/CS259/Turing-recognisable languages.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/CS260/Divide and Conquer.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/CS260/Dynamic Programming.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/CS260/Greedy Algorithms.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/CS260/NP and Computational Intractability.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/CS260/Network Flows.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA222/Compactness.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA222/Compactness.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA222/Completeness.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA222/Completeness.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA222/Connectedness.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA222/Connectedness.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA222/Introduction.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA222/Normed, Metric and Topological spaces.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA222/Normed, Metric and Topological spaces.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA222/Open and closed sets.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA222/Open and closed sets.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA241/Enumerative Combinatorics.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA241/Graph Theory.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA257/Congruences.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA257/Congruences.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA257/Cryptography.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA257/Cryptography.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA257/Diophantine equations.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA257/Diophantine equations.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA257/Elementary factorization algorithms.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA257/Elementary factorization algorithms.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA257/Factorisation, divisibility, Euclidean Algorithm, Chinese Remainder Theorem.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA257/Factorisation, divisibility, Euclidean Algorithm, Chinese Remainder Theorem.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA257/Geometry of numbers.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA257/Geometry of numbers.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA257/Quadratic reciprocity.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA257/Quadratic reciprocity.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA257/p-adic numbers, Hasse Principle.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA257/p-adic numbers, Hasse Principle.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA263/Differentiable Functions.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA263/Differentiable Functions.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA263/Divergence Theorem.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA263/Divergence Theorem.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA263/Green’s Theorem.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA263/Green’s Theorem.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA263/Implicit Function Theorem.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA263/Implicit Function Theorem.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA263/Inverse Function Theorem.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA263/Inverse Function Theorem.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA263/Riemann Integration.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA263/Riemann Integration.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: "Rendering TableOfContents for file: content/Year 2/Notes/MA263/Stokes' Theorem.md",
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: "TableOfContents skipped for content/Year 2/Notes/MA263/Stokes' Theorem.md: no TOC data or disabled in frontmatter",
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA263/Taylor’s theorem.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA263/Taylor’s theorem.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA263/Vector Fields.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA263/Vector Fields.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA267/Group theory.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA267/Group theory.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA267/Ring theory.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA267/Ring theory.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA271/Continuous Vector-Valued Functions.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA271/Continuous Vector-Valued Functions.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA271/Convergence.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA271/Convergence.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA271/Linear Algebra.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA271/Linear Algebra.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA271/Uniform convergence.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA271/Uniform convergence.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA271/complex valued functions.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA271/complex valued functions.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/index.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:13:58 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/First Year.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:07 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Second Year.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:08 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Lecture Notes/CS260 - Algorithms/Lecture 1.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:08 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Lecture Notes/CS260 - Algorithms/Lecture 1.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:08 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Lecture Notes/MA241 - Combinatorics/Lecture 1.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:10 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Lecture Notes/MA241 - Combinatorics/Lecture 1.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:10 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/CS254 -  Algorithmic Graph Theory.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:10 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/CS259 - Formal Languages.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:11 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/CS260 - Algorithms.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:15 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/MA222 - Metric Spaces.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:15 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/MA241 - Combinatorics.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:15 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/MA243 - Geometry.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:16 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/MA250 - Partial Differential Equations.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:16 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/MA252 - Combinatorial Optimisation.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:16 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/MA257 - Introduction to Number Theory.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:17 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/MA263 - Multivariable Analysis.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:18 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/MA266 - Multilinear Algebra.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:18 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/MA267 - Groups and Rings.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:18 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/MA268 - Algebra 3.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:19 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Module Pages/MA271 - Mathematical Analysis 3.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:19 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/CS254/Basic algorithmic techniques for graph problems.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:19 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/CS254/Basic algorithmic techniques for graph problems.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:19 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/CS254/Further algorithmic problems on graphs.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:22 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/CS254/Further algorithmic problems on graphs.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:22 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/CS254/Introduction to graphs.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:22 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/CS254/Introduction to graphs.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:22 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/CS259/Context-free languages.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:22 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/CS259/Context-free languages.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:22 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/CS259/Regular languages.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:23 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/CS259/Regular languages.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:23 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/CS259/Turing-recognisable languages.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:23 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/CS259/Turing-recognisable languages.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:23 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/CS260/Divide and Conquer.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:23 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/CS260/Dynamic Programming.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:23 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/CS260/Greedy Algorithms.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:24 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/CS260/NP and Computational Intractability.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:24 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/CS260/Network Flows.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:24 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA222/Compactness.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:24 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA222/Compactness.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:24 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA222/Completeness.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:24 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA222/Completeness.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:24 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA222/Connectedness.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:24 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA222/Connectedness.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:24 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA222/Introduction.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:24 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA222/Normed, Metric and Topological spaces.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:24 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA222/Normed, Metric and Topological spaces.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:24 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA222/Open and closed sets.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:24 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA222/Open and closed sets.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:24 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA241/Enumerative Combinatorics.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA241/Graph Theory.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA257/Congruences.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA257/Congruences.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA257/Cryptography.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA257/Cryptography.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA257/Diophantine equations.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA257/Diophantine equations.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA257/Elementary factorization algorithms.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA257/Elementary factorization algorithms.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA257/Factorisation, divisibility, Euclidean Algorithm, Chinese Remainder Theorem.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA257/Factorisation, divisibility, Euclidean Algorithm, Chinese Remainder Theorem.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA257/Geometry of numbers.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA257/Geometry of numbers.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA257/Quadratic reciprocity.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA257/Quadratic reciprocity.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA257/p-adic numbers, Hasse Principle.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA257/p-adic numbers, Hasse Principle.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA263/Differentiable Functions.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA263/Differentiable Functions.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA263/Divergence Theorem.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA263/Divergence Theorem.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA263/Green’s Theorem.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA263/Green’s Theorem.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA263/Implicit Function Theorem.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA263/Implicit Function Theorem.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA263/Inverse Function Theorem.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA263/Inverse Function Theorem.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA263/Riemann Integration.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA263/Riemann Integration.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: "Rendering TableOfContents for file: content/Year 2/Notes/MA263/Stokes' Theorem.md",
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: "TableOfContents skipped for content/Year 2/Notes/MA263/Stokes' Theorem.md: no TOC data or disabled in frontmatter",
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA263/Taylor’s theorem.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA263/Taylor’s theorem.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA263/Vector Fields.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA263/Vector Fields.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA267/Group theory.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA267/Group theory.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA267/Ring theory.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA267/Ring theory.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA271/Continuous Vector-Valued Functions.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA271/Continuous Vector-Valued Functions.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA271/Convergence.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA271/Convergence.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA271/Linear Algebra.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA271/Linear Algebra.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA271/Uniform convergence.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA271/Uniform convergence.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/Year 2/Notes/MA271/complex valued functions.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for content/Year 2/Notes/MA271/complex valued functions.md: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: content/index.md',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:25 PM PST'
+}
+{
+  message: 'Rendering TableOfContents for file: undefined',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:26 PM PST'
+}
+{
+  message: 'TableOfContents skipped for undefined: no TOC data or disabled in frontmatter',
+  level: 'info',
+  timestamp: '11/20/2024, 7:14:26 PM PST'
+}
