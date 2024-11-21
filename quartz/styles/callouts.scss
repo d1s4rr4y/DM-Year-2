@@ -111,7 +111,8 @@
   }
 
   &[data-callout="warning"] {
-    --color: #db8942;
+    // --color: #db8942;
+    --color: var(--orange);
     --border: #db894244;
     --bg: #db894210;
     --callout-icon: var(--callout-icon-warning);
@@ -120,7 +121,8 @@
   &[data-callout="failure"],
   &[data-callout="danger"],
   &[data-callout="bug"] {
-    --color: #db4242;
+    // --color: #db4242;
+    --color: var(--red);
     --border: #db424244;
     --bg: #db424210;
     --callout-icon: var(--callout-icon-failure);
