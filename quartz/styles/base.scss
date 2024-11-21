@@ -70,8 +70,8 @@ a {
   }
 
   &.internal {
-    text-decoration: none;
-    background-color: var(--highlight);
+    text-decoration: underline wavy 1px;
+    background-color: transparent;
     padding: 0 0.1rem;
     border-radius: 5px;
     line-height: 1.4rem;
@@ -81,6 +81,7 @@ a {
       border-radius: 0;
       padding: 0;
     }
+
     &.tag-link {
       &::before {
         content: "#";
@@ -121,7 +122,9 @@ a {
 
   & article {
     & > h1 {
-      font-size: 2rem;
+      font-size: 1.5rem;
+      padding-top: 0;
+      margin-top: 1rem;
     }
 
     & li:has(> input[type="checkbox"]) {
@@ -283,8 +286,8 @@ h4,
 h5,
 h6 {
   &[id] > a[href^="#"] {
-    margin: 0 0.5rem;
-    opacity: 0;
+    // margin: 0 0.5rem;
+    opacity: 100;
     transition: opacity 0.2s ease;
     transform: translateY(-0.1rem);
     font-family: var(--codeFont);
@@ -523,4 +526,33 @@ ol.overflow {
 .katex-display {
   overflow-x: auto;
   overflow-y: hidden;
+}
+
+
+#toc-content li {
+  // Ensure headers are visible even when the navbar is present
+  scroll-margin-top: calc(6 * $base-margin);
+
+  // Oldstyle is too small for headers
+  &::first-letter,
+  & span,
+  .number-prefix {
+    font-variant-numeric: lining-nums;
+  }
+
+  // color: var(--color-header);
+  font-family: var(--font-text-header);
+
+  & .small-caps {
+    font-weight: lighter;
+  }
+
+  &[id] > a {
+    text-decoration: none;
+    color: var(--dark);
+  }
+
+  &[id]:hover > a {
+    opacity: 1;
+  }
 }

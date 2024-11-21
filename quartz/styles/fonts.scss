@@ -169,11 +169,11 @@ $fonts-dir: "/static/styles/fonts";
 body {
   --font-monospace: "FiraCode", "JetBrains Mono", "Courier New", monospace;
   --font-monospace-theme: "FiraCode", "JetBrains Mono", "Courier New", monospace;
-  --font-text-theme: "EBGaramond", garamond, "Noto Sans", serif;
-  --font-text: "Noto Sans";
+  --font-text-theme: "EBGaramond", garamond, "Times New Roman", serif;
+  --font-text: "EBGaramond", garamond, "Times New Roman", serif;
   --font-text-original: "EBGaramondOriginal";
   --font-text-italic: "EBGaramondItalic", "EBGaramond";
-  --font-text-header: "EBGaramond", garamond, "Noto Sans", serif;
+  --font-text-header: "EBGaramond", garamond, "Times New Roman", serif;
   --font-text-sc: "EBGaramondSC", "EBGaramond:smcp", "Garamond SC", small-caps, serif;
   --font-text-swash: "EBGaramond:+swsh", cursive;
 

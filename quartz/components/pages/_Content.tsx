@@ -76,7 +76,7 @@ function renderTableOfContents(fileData: QuartzComponentProps["fileData"]): JSX.
   if (!fileData.toc || fileData.frontmatter?.toc === "false") {
     return null
   }
-//   const toc = buildNestedList(fileData.toc, 0, 0)[0]
+  // const toc = buildNestedList(fileData.toc, 0, 0)[0]
   return (
     <blockquote
       className="callout example is-collapsible is-collapsed"

@@ -10,6 +10,7 @@
 
 // export default (() => Content) satisfies QuartzComponentConstructor
 
+
 import React from "react"
 
 // import {
@@ -17,7 +18,7 @@ import React from "react"
 //   LESSWRONG_FAVICON_PATH,
 // } from "../../plugins/transformers/linkfavicons"
 import { htmlToJsx } from "../../util/jsx"
-// import { buildNestedList } from "../TableOfContents"
+import { buildNestedList } from "../TableOfContents"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "../types"
 
 // const turntroutFavicon = <img src={TURNTROUT_FAVICON_PATH} className="favicon" alt="" />
@@ -73,10 +74,10 @@ const Content: QuartzComponent = ({ fileData, tree }: QuartzComponentProps) => {
   const content = htmlToJsx(fileData.filePath!, tree)
   const classes: string[] = fileData.frontmatter?.cssclasses ?? []
   const classString = ["popover-hint", ...classes].join(" ")
-  // const toc = renderTableOfContents(fileData)
+  const toc = renderTableOfContents(fileData)
   return (
     <article className={classString} data-use-dropcap={useDropcap}>
-      {/* <span className="mobile-only">{toc}</span> */}
+      <span className="mobile-only">{toc}</span>
       {isQuestion && originalURL && lessWrongQuestion(originalURL as string)}
       {showWarning && rewardPostWarning}
       {content}
@@ -84,30 +85,30 @@ const Content: QuartzComponent = ({ fileData, tree }: QuartzComponentProps) => {
   )
 }
 
-// function renderTableOfContents(fileData: QuartzComponentProps["fileData"]): JSX.Element | null {
-//   if (!fileData.toc || fileData.frontmatter?.toc === "false") {
-//     return null
-//   }
-// //   const toc = buildNestedList(fileData.toc, 0, 0)[0]
-//   return (
-//     <blockquote
-//       className="callout example is-collapsible is-collapsed"
-//       data-callout="example"
-//       data-callout-fold=""
-//     >
-//       <div className="callout-title">
-//         <div className="callout-icon"></div>
-//         <div className="callout-title-inner">
-//           <p>Table of contents</p>
-//         </div>
-//         <div className="fold-callout-icon"></div>
-//       </div>
-//       <div id="toc-content-mobile" className="callout-content">
-//         {/* <ul style="padding-left: 1rem !important;">{toc}</ul> */}
-//       </div>
-//     </blockquote>
-//   )
-// }
+function renderTableOfContents(fileData: QuartzComponentProps["fileData"]): JSX.Element | null {
+  if (!fileData.toc || fileData.frontmatter?.toc === "false") {
+    return null
+  }
+  const toc = buildNestedList(fileData.toc, 0, 0)[0]
+  return (
+    <blockquote
+      className="callout example is-collapsible is-collapsed"
+      data-callout="example"
+      data-callout-fold=""
+    >
+      <div className="callout-title">
+        <div className="callout-icon"></div>
+        <div className="callout-title-inner">
+          <p>Table of contents</p>
+        </div>
+        <div className="fold-callout-icon"></div>
+      </div>
+      <div id="toc-content-mobile" className="callout-content">
+        <ul style="padding-left: 1rem !important;">{toc}</ul>
+      </div>
+    </blockquote>
+  )
+}
 
 // const lessWrongFavicon = <img src={LESSWRONG_FAVICON_PATH} className="favicon" alt="" />
 

@@ -65,10 +65,18 @@ const config: QuartzConfig = {
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: true, parseArrows: false }),
       Plugin.GitHubFlavoredMarkdown(),
-      Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Latex({ renderEngine: "katex" }),
       Plugin.HardLineBreaks(),
+
+      // CUSTOM PLUGINS
+      Plugin.TableOfContents(),
+      Plugin.AfterArticle(),
+      Plugin.ColorVariables(),
+      Plugin.TagAcronyms(),
+      Plugin.HTMLFormattingImprovement(),
+      Plugin.ConvertEmphasis(),
+
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [

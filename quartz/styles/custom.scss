@@ -206,3 +206,11 @@ strong {
         color: inherit;
     }
 } 
+
+#toc-content ul,
+#toc-content-mobile ul {
+  --text-indent-multiplier: -0.75;
+
+  text-indent: calc(var(--text-indent-multiplier) * $base-margin);
+  margin-left: calc(1 * $base-margin - $base-margin * var(--text-indent-multiplier));
+}

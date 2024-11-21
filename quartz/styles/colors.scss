@@ -26,23 +26,28 @@
   --crust: #232634;
   --color-visited: color-mix(in srgb, var(--red) 50%, var(--blue));
 
-  // Theme-specific colors (from quartz.config.ts darkMode)
-  // --light: #303446; // frappeColors.base
-  // --lightgray: #737994; // frappeColors.overlay-0
-  // --gray: #949cbb; // frappeColors.overlay-2
-  // --darkgray: #b5bfe2; // frappeColors.subtext-1
-  // --dark: #c6d0f5; // frappeColors.text
-  // --secondary: #8caaee; // frappeColors.blue
-  // --tertiary: #99d1db; // frappeColors.sky
-  // --highlight: #949cbb30; // frappeColors.overlay-2 at 20% opacity
 
-  --light: #2E3440;
-  --lightgray: #72B8C5;
-  --gray: #72B8C5;
-  --darkgray: #ECEFF4;
-  --dark: #B25A89;
-  --secondary: #72B8C5;
-  --tertiary: #5B9CA8;
+  // --light: #2E3440;
+  --light: #303446;
+
+  // --lightgray: #72B8C5;
+  --lightgray: #3D4155;
+
+  // --gray: #72B8C5;
+  --gray: #949CBB;
+
+  // --darkgray: #ECEFF4;
+  --darkgray: #C6D0F5;
+
+  // --dark: #B25A89;
+  --dark: #6f5b9e;
+
+  // --secondary: #72B8C5;
+  --secondary: #7a81e6;
+
+  // --tertiary: #5B9CA8;
+  --tertiary: #ac7ae6;
+
   --highlight: rgba(91, 156, 168, 0.30);
 
   & img,

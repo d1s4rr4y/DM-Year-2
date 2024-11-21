@@ -1,60 +1,146 @@
-button#toc {
-  background-color: transparent;
-  border: none;
-  text-align: left;
-  cursor: pointer;
-  padding: 0;
-  color: var(--dark);
-  display: flex;
-  align-items: center;
+// button#toc {
+//   background-color: transparent;
+//   border: none;
+//   text-align: left;
+//   cursor: pointer;
+//   padding: 0;
+//   color: var(--dark);
+//   display: flex;
+//   align-items: center;
 
-  & h3 {
-    font-size: 1rem;
-    display: inline-block;
-    margin: 0;
-  }
+//   & h3 {
+//     font-size: 1rem;
+//     display: inline-block;
+//     margin: 0;
+//   }
 
-  & .fold {
-    margin-left: 0.5rem;
-    transition: transform 0.3s ease;
-    opacity: 0.8;
-  }
+//   & .fold {
+//     margin-left: 0.5rem;
+//     transition: transform 0.3s ease;
+//     opacity: 0.8;
+//   }
 
-  &.collapsed .fold {
-    transform: rotateZ(-90deg);
+//   &.collapsed .fold {
+//     transform: rotateZ(-90deg);
+//   }
+// }
+
+// #toc-content {
+//   list-style: none;
+//   overflow: hidden;
+//   max-height: none;
+//   transition: max-height 0.5s ease;
+//   position: relative;
+
+//   &.collapsed > .overflow::after {
+//     opacity: 0;
+//   }
+
+//   & ul {
+//     list-style: none;
+//     margin: 0.5rem 0;
+//     padding: 0;
+//     & > li > a {
+//       color: var(--dark);
+//       opacity: 0.35;
+//       transition:
+//         0.5s ease opacity,
+//         0.3s ease color;
+//       &.in-view {
+//         opacity: 0.75;
+//       }
+//     }
+//   }
+
+//   @for $i from 0 through 6 {
+//     & .depth-#{$i} {
+//       padding-left: calc(1rem * #{$i});
+//     }
+//   }
+// }
+
+
+@use "../../styles/variables" as *;
+
+.toc-title {
+  margin-top: 0;
+  margin-bottom: calc(0.5 * $base-margin);
+
+  & a {
+    text-decoration: none;
   }
 }
 
-#toc-content {
+ul.overflow,
+ol.overflow {
+  overflow-y: auto;
+  margin-bottom: 0;
+  content: "";
+  clear: both;
+}
+
+#toc-content,
+#toc-content-mobile {
   list-style: none;
-  overflow: hidden;
+  overflow: visible;
   max-height: none;
   transition: max-height 0.5s ease;
   position: relative;
+  font-size: var(--text-size-90);
 
-  &.collapsed > .overflow::after {
-    opacity: 0;
+  & > ul {
+    padding-left: $base-margin !important;
   }
 
   & ul {
     list-style: none;
-    margin: 0.5rem 0;
     padding: 0;
-    & > li > a {
-      color: var(--dark);
-      opacity: 0.35;
-      transition:
-        0.5s ease opacity,
-        0.3s ease color;
-      &.in-view {
-        opacity: 0.75;
+    line-height: 1.05em;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    & ul {
+      font-size: 0.913em; // approx sqrt(1/1.2), where 1.2 is scale factor
+
+      & li {
+        padding-left: calc(0.75 * $base-margin - $base-margin * var(--text-indent-multiplier));
+      }
+    }
+
+    &:not(:first-child) {
+      margin-bottom: 0;
+    }
+
+    & > li {
+      padding-bottom: calc(0.5 * $base-margin);
+      overflow-y: visible;
+
+      &:first-child {
+        padding-top: calc(0.5 * $base-margin);
+      }
+
+      &:last-child {
+        padding-bottom: 0;
+        margin-bottom: calc(0.25 * $base-margin);
+      }
+
+      & > a {
+        text-decoration: none;
+        color: var(--gray);
+
+        // Navigation frame is within this section
+        &.active {
+          color: var(--dark);
+          text-shadow: 0.3px 0.3px var(--dark);
+        }
       }
     }
   }
+}
 
-  @for $i from 0 through 6 {
-    & .depth-#{$i} {
-      padding-left: calc(1rem * #{$i});
-    }
+.center #toc-content-mobile {
+  & a,
+  & a:visited {
+    color: var(--dark);
   }
 }
