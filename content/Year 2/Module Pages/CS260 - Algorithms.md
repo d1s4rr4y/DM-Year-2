@@ -16,6 +16,5 @@ no_dropcap: true
 - [[Dynamic Programming]] (incomplete)
 - [[NP and Computational Intractability]] (incomplete)
 - [[Network Flows]] (incomplete)
-
 # Reading List
 - Kleinberg and Tardos. *Algorithms Design.* Addison Wesley, 2005.

@@ -1,5 +1,3 @@
-← Back to the [[MA241 - Combinatorics|Module Overview]]
-- - -
 # Balls and Boxes 
 
 > [!note] Example 1
