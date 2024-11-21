@@ -8,7 +8,7 @@ no_dropcap: true
 **Status:** Option List A
 **Assessment:** *100%* 2 hour exam, 
 - [Past Papers](https://warwick.ac.uk/exampapers?q=MA250)
-**Assumed Knowledge:** MA147 - Mathematical Methods and Modelling 1, MA145 - Mathematical Methods and Modelling 2, MA149 - Linear Algebra
+**Assumed Knowledge:** [[MA147 - Mathematical Methods and Modelling 1]], [[MA145 - Mathematical Methods and Modelling 2]], [[MA149 - Linear Algebra]]
 # Content 
 The theory of partial differential equations (PDE) is important both in pure and applied mathematics. On the one hand they are used to mathematically formulate many phenomena from the natural sciences (electromagnetism, Maxwell's equations) or social sciences (financial markets, Black-Scholes model). On the other hand since the pioneering work on surfaces and manifolds by Gauss and Riemann partial differential equations have been at the centre of many important developments on other areas of mathematics (geometry, Poincare-conjecture).
 
