@@ -1,7 +1,7 @@
 # Divisibility and Congruences 
 Let $u$, $v$ be integers. We say that $u$ **divides** $v$ and write $u | v$ if there is some integer $w$ such that $v = uw$. Note that any integer $u$ divides 0. 
 
-> [!warning] Lemma 
+> [!warning] Lemma ^d9ada2
 > Let $m$ be an integer $\ge 2$. Let $a$, $b$, $c$, $d$ be integers. 
 > Suppose $a  \equiv c  \, (\bmod m)$ and $b \equiv d \, (\bmod m)$. Then
 > $$ a + b \equiv c + d \, (\bmod m)$$
@@ -18,7 +18,7 @@ Let $u$, $v$ be integers. We say that $u$ **divides** $v$ and write $u | v$ if t
 >>   \end{align}
 >>   $$
 >>   The expression $ud + cv + uvm$ is an integer as $u$, $d$, $c$, $v$ and $m$ are all integers. Thus, $m | (ab - cd)$ and so $ab \equiv cd \, (\bmod m)$ as required. 
-> ^d9ada2
+
 
 Let $m$ be an integer $\ge 2$. We write $\mathbb{Z}/m\mathbb{Z}$ for the classes of integers modulo $m$. Last year, we used the notation $[a]_m$ for the class of integers congruent to $a$ module $m$. In this module we will write $\bar a$ for the class of integers that are congruent to $a$ modulo $m$. The $m$ is understood as fixed. Thus
 
@@ -49,12 +49,13 @@ $$ \bar{2} \times \bar{3} \times \bar{11} = \bar{66} = \bar{10}$$ since $66-10 =
 >For example, in $\mathbb{Z}/4\mathbb{Z}$ we get the class $\bar 2$ is non-zero, but it doesn't have a multiplicative inverse.
 >Suppose $\bar{2} \cdot \bar{a} = \bar{1}$ is in $\mathbb{Z}/4\mathbb{Z}$. Then $2a - 1$ is divisible by 4, and hence even. However, we know that $2a - 1$ is an odd number, giving a contradiction. 
 
-The following lemme can be used to compute inverses in $\mathbb{Z}/m\mathbb{Z}$ 
+The following lemma can be used to compute inverses in $\mathbb{Z}/m\mathbb{Z}$ 
 
->[!warning] Lemma (Bezout's Lemma)
+>[!warning] Lemma (Bezout's Lemma) ^bezout
+>
 >Let $m, n \in \mathbb{Z}$ (not both zero) and let $h = \gcd(m, n)$. Then there are $u, v \in \mathbb{Z}$ such that 
 >$$h = um + vn$$ 
->^bezout
+>
 
 > [!warning] Lemma
 > Let $m \ge 2$ Let $n$ be an integer. Then $\bar{n}$ has a multiplicative inverse in $\mathbb{Z}/m\mathbb{Z}$ if and only if $\gcd(m, n) = 1$ 
@@ -63,6 +64,7 @@ The following lemme can be used to compute inverses in $\mathbb{Z}/m\mathbb{Z}$
 >> Suppose that $\gcd(m, n) = 1$ Then by [[Revision#^bezout|Bezout's Lemma]] $um + vn = 1$ for some integers $u, v$. Thus, $vn \equiv 1 \, (\bmod m)$. Therefore $\bar{v}\cdot\bar{n} = \bar{1}$ in $\mathbb{|}/m\mathbb{Z}$ or equivalently $\bar{n}^{-1} = \bar{v}$ in $\mathbb{z}/m\mathbb{Z}$
 >> Conversely, suppose $\bar{n}$ has a multiplicative inverse in $\mathbb{Z}/m\mathbb{Z}$. Thus $\bar{v}\cdot\bar{n} = \bar{1}$ for some integer $v$. Therefore $vn - 1 = um$ for some integer $u$. Let $d = \gcd(m, n)$. Then $d$ divides $m$ and $n$, and therefore divides $vn - um = 1$, showing that $d = 1$
 >
+
 # Groups 
 A **group** is a pair $(G, \circ)$ where $G$ is a set and $\circ$ is a binary operation on $G$, such that the following properties hold: 
 - **Closure:** $a \circ b \in G \ \forall a, b \in G$ 
@@ -170,8 +172,6 @@ We say that $G$ is **cyclic** if $G = \langle g \rangle$ for some $g \in G$, whi
 
 >[!example]
 >$\mathbb{R}^*, \mathbb{C}^*$ are not cyclic. One way of seeing this is to realise they're uncountable, and cyclic groups are always countable. 
-
-
 
 # Symmetric Group 
 
