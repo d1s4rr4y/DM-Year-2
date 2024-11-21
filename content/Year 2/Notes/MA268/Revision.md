@@ -1,7 +1,7 @@
 # Divisibility and Congruences 
 Let $u$, $v$ be integers. We say that $u$ **divides** $v$ and write $u | v$ if there is some integer $w$ such that $v = uw$. Note that any integer $u$ divides 0. 
 
-> [!warning] Lemma ^d9ada2
+> [!warning] Lemma 
 > Let $m$ be an integer $\ge 2$. Let $a$, $b$, $c$, $d$ be integers. 
 > Suppose $a  \equiv c  \, (\bmod m)$ and $b \equiv d \, (\bmod m)$. Then
 > $$ a + b \equiv c + d \, (\bmod m)$$
@@ -11,13 +11,15 @@ Let $u$, $v$ be integers. We say that $u$ **divides** $v$ and write $u | v$ if t
 >> 
 >> We're told that $a \equiv  c \, (\bmod m)$. Thus, $m | (a - c)$ which means that $a - c = um$ for some integer $u$. Thus $a = c + um$ where $u$ is an integer. 
 >> Likewise, $b - d + vm$ where $v$ is an integer. Hence
->> $$\begin{align}
+>> $$
+>> \begin{align}
 >> 	ab - cd &= (c + um)(d + vm) - cd \\
->> 		  &= umd + cvm = uvm^2\\
+>> 		  &= umd + cvm = uvm^2 \\
 >> 		  &= m \cdot (ud + cv + uvm)
 >>   \end{align}
 >>   $$
 >>   The expression $ud + cv + uvm$ is an integer as $u$, $d$, $c$, $v$ and $m$ are all integers. Thus, $m | (ab - cd)$ and so $ab \equiv cd \, (\bmod m)$ as required. 
+> ^d9ada2
 
 
 Let $m$ be an integer $\ge 2$. We write $\mathbb{Z}/m\mathbb{Z}$ for the classes of integers modulo $m$. Last year, we used the notation $[a]_m$ for the class of integers congruent to $a$ module $m$. In this module we will write $\bar a$ for the class of integers that are congruent to $a$ modulo $m$. The $m$ is understood as fixed. Thus
@@ -51,11 +53,11 @@ $$ \bar{2} \times \bar{3} \times \bar{11} = \bar{66} = \bar{10}$$ since $66-10 =
 
 The following lemma can be used to compute inverses in $\mathbb{Z}/m\mathbb{Z}$ 
 
->[!warning] Lemma (Bezout's Lemma) ^bezout
+>[!warning] Lemma (Bezout's Lemma) 
 >
 >Let $m, n \in \mathbb{Z}$ (not both zero) and let $h = \gcd(m, n)$. Then there are $u, v \in \mathbb{Z}$ such that 
 >$$h = um + vn$$ 
->
+>^bezout
 
 > [!warning] Lemma
 > Let $m \ge 2$ Let $n$ be an integer. Then $\bar{n}$ has a multiplicative inverse in $\mathbb{Z}/m\mathbb{Z}$ if and only if $\gcd(m, n) = 1$ 
@@ -151,6 +153,7 @@ We say that $G$ is **cyclic** if $G = \langle g \rangle$ for some $g \in G$, whi
 >[!warning] Lemma 
 >Cyclic groups are abelian
 >>[!note]- Proof
+>>
 >>Suppose $G = \langle g \rangle$. Then
 >>$$
 >>\begin{align} 
