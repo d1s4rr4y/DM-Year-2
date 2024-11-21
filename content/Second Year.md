@@ -1,5 +1,5 @@
 ---
-no_dropcap: false
+no_dropcap: true
 ---
 # Details
 - [Course Structure](https://warwick.ac.uk/fac/sci/dcs/teaching/courses/dm2meng-2425)

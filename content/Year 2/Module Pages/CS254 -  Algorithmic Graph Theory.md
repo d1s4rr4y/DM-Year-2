@@ -1,5 +1,6 @@
-← Back to the [[Second Year|Course Overview]]
-- - -
+---
+no_dropcap: true
+---
 # Details
 [Module Webpage](https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs254/)
 **Lecturer:** [Ranko Lazic](https://peoplesearch.warwick.ac.uk/profile/0070379)

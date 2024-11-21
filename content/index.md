@@ -1,6 +1,7 @@
 ---
 title: Overview
 no_dropcap: true
+enableToc: false
 ---
 
 # Course Content
