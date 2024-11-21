@@ -156,7 +156,8 @@
   }
 
 em { 
-    color: #B25A89 !important;
+    // color: #B25A89 !important;
+    color: var(--dark) !important;
     font-style: italic;
 }
 
