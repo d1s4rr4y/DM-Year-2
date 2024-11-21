@@ -36,5 +36,4 @@ no_dropcap: true
 | [[MA271 - Mathematical Analysis 3\|MA271]]         | [Mathematical Analysis 3](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/ext/ma271/)          | 10   | 1    |
 # Notes 
 
-For now, I am only working on notes for the term 1 modules. I will be working on the term 2 modules when I have time and aim to complete the notes over the Christmas break. 
-
+For now, I am only working on notes for the term 1 modules. I will be working on the term 2 modules when I have time and aim to complete the notes over the Christmas break.

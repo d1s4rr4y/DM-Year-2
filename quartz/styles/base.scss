@@ -2,7 +2,7 @@
 @use "./syntax.scss";
 @use "./callouts.scss";
 @use "./fonts.scss";
-// @use "./colors.scss";
+@use "./colors.scss";
 
 html {
   scroll-behavior: smooth;

@@ -30,4 +30,3 @@ no_dropcap: true
 | MA145 | Mathematical Methods and Modelling 2 | 10   | 2    |
 | MA147 | Mathematical Methods and Modelling 2 | 10   | 1    |
 |       |                                      |      |      |
-

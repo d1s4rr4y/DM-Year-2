@@ -13,7 +13,7 @@ const config: QuartzConfig = {
     defaultDateType: "created",
     navbar: {
       pages: [
-        { title: "About Me", slug: "/"},
+        { title: "Home", slug: "/"},
         { title: "First Year", slug: "/First-Year"},
         { title: "Second Year", slug: "/Second-Year"},
       ],
