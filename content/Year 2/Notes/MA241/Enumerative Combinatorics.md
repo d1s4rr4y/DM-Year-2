@@ -289,4 +289,5 @@ There are no good formulas for $p(n)$ or $p_k(n)$
 > A *balanced sequence* of $n$ opening and $n$ closing parenthesis is a sequence such that every close-parenthesis has a matching open-parenthesis 
 
 - - - 
-Go to the [[Graph Theory|Next Topic]] →
+Go to the [[Graph Theory|Next Topic]] → 
+

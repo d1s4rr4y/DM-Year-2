@@ -25,4 +25,3 @@ _II [[Graph Theory]]:_
 # Reading List
 - Edward E. Bender and S. Gill Williamson, [Foundations of Combinatorics with Applications](http://www.math.ucsd.edu/~ebender/CombText/), Dover Publications, 2006.
 - John M. Harris, Jeffry L. Hirst and Michael J. Mossinghoff, _Combinatorics and Graph Theory_, Springer-Verlag, 2000.
-- 
