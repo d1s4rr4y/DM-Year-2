@@ -95,6 +95,10 @@
     --bg: none;
     columns: 2 auto;
 
+    & > .callout-content {
+      margin: 0;
+    }
+
     & > .callout-title {
       display: none !important;
       & > .callout-title-inner > p {
