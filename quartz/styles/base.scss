@@ -184,6 +184,7 @@ a {
     }
 
     & .sidebar.right {
+      display: none;
       right: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth);
       flex-wrap: wrap;
       & > * {
