@@ -1,11 +1,8 @@
-← Back to the [[MA241 - Combinatorics|Module Overview]]
-- - -
 # Balls and Boxes 
 
 > [!note] Example 1
 > Suppose we have $k$ labelled balls (i.e., they are labelled with the integers $1,...,k$), and $n$ labelled boxes (i.e. they are labelled with the integers $1,...,n$) How many different ways are there to distribute the balls in the boxes, if every ball has to go in a box, and every box can hold arbitrarily many balls?
 > The answer to this problem is $n^k$. For the first of the $k$ balls, there are $n$ choices for where to put the ball. For the second ball, there are again $n$ choices. If we repeat this for each of the $k$ balls, we will find that each ball has a choice of $n$ boxes. Therefore, the total amount of ways to arrange the balls is $n \times n \times ... \times n$, $k$ times ($= n^k$).
-
 # Counting Orderings 
 Like before, suppose we have $k$ labelled balls and $n$ labelled boxes, with the new conditions that $n = k$ and that each of the $n$ boxes has a capacity $1$. How many ways are there to distribute the balls into the boxes? 
 
@@ -13,7 +10,6 @@ Like before, suppose we have $k$ labelled balls and $n$ labelled boxes, with the
 > Apply the same strategy of considering each ball individually and in order. For the first ball, there are $n$ choices of where to place it. No matter which of the $n$ boxes we choose, the second ball will have $n - 1$ choices for its placement, and so on, down to $1$ choice for the $kth$ ball. 
 > This gives the answer $$n \cdot (n - 1) \cdot ... 2 \cdot 1 = \displaystyle \prod_{i = 1}^{n} i$$
 > This expression comes up regularly
-
 
 >[!warning] **DEFINITION** factorial
 >Let $n$ be a positive integer. We define the *factorial* of $n$, denoted $n!$, to be the product of positive integers at most $n$. That is, $$n! = 1 \cdot 2 \cdot ... \cdot (n - 1) \cdot n = \displaystyle \prod_{i = 1}^{n} i$$
@@ -287,7 +283,3 @@ There are no good formulas for $p(n)$ or $p_k(n)$
 
 > [!warning] **DEFINITION** Balanced Sequence
 > A *balanced sequence* of $n$ opening and $n$ closing parenthesis is a sequence such that every close-parenthesis has a matching open-parenthesis 
-
-- - - 
-Go to the [[Graph Theory|Next Topic]] → 
-

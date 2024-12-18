@@ -1,5 +1,3 @@
-← Back to the [[Second Year|Course Overview]]
-- - -
 # Details
 [Module Link](https://courses.warwick.ac.uk/modules/2024/MA266-10)/[Module Webpage](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma266/)/[[MA266-Multilinear-Algebra.pdf|Lecture Notes]]
 **Lecturer:** [Christian Böhning](https://warwick.ac.uk/fac/sci/maths/people/staff/boehning/)
@@ -7,7 +5,8 @@
 **Status:** Option List B
 **Assessment:** *85%* Exam, *15%* Assignments
 - [Past Papers](https://warwick.ac.uk/exampapers?q=MA266)
-**Assumed Knowledge:** [[MA149 - Linear Algebra]]
+**Assumed Knowledge:** 
+- [[MA149 - Linear Algebra]]
 # Content 
 This is a second linear algebra module. Its contents can be divided into three major groups.
 

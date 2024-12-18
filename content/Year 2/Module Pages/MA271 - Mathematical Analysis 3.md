@@ -1,5 +1,3 @@
-← Back to the [[Second Year|Course Overview]]
-- - -
 # Details
 [Module Link](https://courses.warwick.ac.uk/modules/2024/MA271-10)/[Module Webpage](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/ext/ma271/)/[[MA271-Mathematical-Analysis-3.pdf|Lecture Notes]]
 **Lecturer:** [Vedran Sohinger](https://warwick.ac.uk/fac/sci/maths/people/staff/vedran_sohinger/)
@@ -7,7 +5,10 @@
 **Status:** Option List A
 **Assessment:** *85%* 2 hour exam, *15%* coursework
 - [Past Papers](https://warwick.ac.uk/exampapers?q=MA271)
-**Assumed Knowledge:** [[MA142 - Calculus 1]], [[MA143 - Calculus 2]], [[MA149 - Linear Algebra]]
+**Assumed Knowledge:** 
+- [[MA142 - Calculus 1]]
+- [[MA143 - Calculus 2]]
+- [[MA149 - Linear Algebra]]
 # Content 
 - [[Continuous Vector-Valued Functions]]
 - Some [[Linear Algebra]]

@@ -1,5 +1,3 @@
-← Back to the [[Second Year|Course Overview]]
-- - -
 # Details
 [Module Link](https://courses.warwick.ac.uk/modules/2024/MA267-10)/[Module Webpage](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/ext/ma267)/[[MA267-Groups-And-Rings.pdf|Lecture Notes]]
 **Lecturer:** [Nicholas Jackson](https://peoplesearch.warwick.ac.uk/profile/1670084)
@@ -11,10 +9,6 @@
 - *Number Theory:* congruence modulo-n, prime factorisation, Euclidean algorithm, greatest common divisors (gcd) and least common multiples (lcm).
 - *Sets and functions:* basic set theory, injective and surjective functions, equivalence relations.
 - *Polynomials:* multiplication and division, Euclidean algorithm, Remainder Theorem.
-**Synergies:** 
-- MA243 Geometry
-- [[MA257 - Introduction to Number Theory]]
-- [[MA266 - Multilinear Algebra]]
 # Content 
 - *[[Group theory]]:* 
 	- Basic definitions and properties of groups, subgroups and homomorphisms. 
