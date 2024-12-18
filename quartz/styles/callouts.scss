@@ -203,3 +203,70 @@
     font-weight: 700;
   }
 }
+
+/* remove callout-title and make callout-content as part of main callout for box formatting */
+div[data-callout="multi"].callout > .callout-title { display: none; }
+div[data-callout="multi"].callout > .callout-content { display: contents; }
+/* make the main callout a flex and remove box formatting */
+/* --columns: unset to undo Sanctum's mod */
+div[data-callout="multi"].callout
+  { display: flex; flex-wrap: wrap; gap: var(--callout-gap); background: unset; border: unset; margin: unset; padding: unset; clear: both; --columns: unset; }
+/* make the subcallout in flex column to allow growing vertically */
+div[data-callout="multi"].callout .callout:not([data-callout="multi"]) { display: flex; flex-direction: column; }
+div[data-callout="multi"].callout:not(.is-collapsed) .callout { margin-inline: var(--callout-margin); margin-block: var(--callout-margin); } /* to allow spacing for box shadow */
+div[data-callout="multi"].callout .callout .callout-content { flex-grow: 1}
+
+div[data-callout="multi"].callout > .callout-content > *:is(div,ul,blockquote,p) { flex: 1 1 var(--callout-min-width); margin: 0;}
+
+/* metadata "wide-x" to control subcallout flexible max width. only discrete 2,4,8,16 */
+div[data-callout="multi"].callout > .callout-content > div[data-callout-metadata*="min-0"] { flex-basis: 0; }
+div[data-callout="multi"].callout > .callout-content > div[data-callout-metadata*="wide-2"] { flex-grow: 2; }
+div[data-callout="multi"].callout > .callout-content > div[data-callout-metadata*="wide-3"] { flex-grow: 3; }
+div[data-callout="multi"].callout > .callout-content > div[data-callout-metadata*="wide-4"] { flex-grow: 4; }
+div[data-callout="multi"].callout > .callout-content > div[data-callout-metadata*="wide-5"] { flex-grow: 5; }
+
+@media (min-width: 500px) {
+  /* .is-collapsed is used to draw the border-left only when it's collapsed */
+  div[data-callout="multi"].callout > div.callout-content .callout.is-collapsed { box-shadow: unset; height: min-content;}
+}
+
+/* -- MCC Variant - Flexible Height for Subcallout / Children -- */
+/* also useful if one wants to have non callout children like table and don't want to fill the height */
+div[data-callout="multi"].callout {}
+div[data-callout="multi"][data-callout-metadata*="flex-h"].callout { align-items: flex-start; }
+
+/* -- MCC Variation - Fixed Columns -- */
+div[data-callout="multi"][data-callout-metadata*="col3"]:not([data-callout-metadata*="icons"]).callout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* -- MCC Variation - Icons -- */
+
+/* Main code */
+div[data-callout="multi"][data-callout-metadata*="icons"] {
+
+  &.callout { justify-content: center; }
+  &.callout .callout { display: flex; flex-direction: row; flex-wrap: wrap; }
+  &.callout.callout .callout-content > p { flex-grow: 1; text-align: center; }
+  /* Options for number of columns */
+  &[data-callout-metadata*="col2"].callout.callout .callout-content > p { flex-basis: 40%; }
+  &[data-callout-metadata*="col3"].callout.callout .callout-content > p { flex-basis: 30%; }
+  &[data-callout-metadata*="col4"].callout.callout .callout-content > p { flex-basis: 22%; }
+  &[data-callout-metadata*="col5"].callout.callout .callout-content > p { flex-basis: 18%; }
+
+  /* listive theme */
+  &.callout p:first-child { margin-top: revert; }
+}
+
+
+div[data-callout="multi"].callout > .callout-content > div[data-callout-metadata*="mw0"].callout.callout { flex-basis: 0; }
+div[data-callout="multi"].callout > .callout-content > div[data-callout-metadata*="dw1"].callout { flex: 1 0 auto; }
+div[data-callout="multi"].callout > .callout-content > div[data-callout-metadata*="dw2"].callout { flex: 2 0 auto; }
+div[data-callout="multi"].callout > .callout-content > div[data-callout-metadata*="dw3"].callout { flex: 3 0 auto; }
+div[data-callout="multi"].callout > .callout-content > div[data-callout-metadata*="dw4"].callout { flex: 4 0 auto; }
+div[data-callout="multi"].callout > .callout-content > div[data-callout-metadata*="dw5"].callout { flex: 5 0 auto; }
+div[data-callout="multi"].callout > .callout-content > div[data-callout-metadata*="dw6"].callout { flex: 6 0 auto; }
+div[data-callout="multi"].callout > .callout-content > div[data-callout-metadata*="dw7"].callout { flex: 7 0 auto; }
+div[data-callout="multi"].callout > .callout-content > div[data-callout-metadata*="dw8"].callout { flex: 8 0 auto; }
+div[data-callout="multi"].callout > .callout-content > div[data-callout-metadata*="dw9"].callout { flex: 9 0 auto; }
