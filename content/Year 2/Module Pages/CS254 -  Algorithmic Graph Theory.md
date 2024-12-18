@@ -1,6 +1,7 @@
 > [!multi-column]
 > 
 >> [!into] Module Info
+>> 
 >> [Module Webpage](https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs254/)
 >> 
 >> **Professor:** [Ranko Lazic](https://peoplesearch.warwick.ac.uk/profile/0070379)
@@ -11,6 +12,7 @@
 >> 
 >
 >> [!success] Rating
+>> 
 >> **Difficulty:** 
 >> **Professor:** 
 >> **Teaching Style:**

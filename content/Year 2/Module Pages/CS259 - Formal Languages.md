@@ -1,6 +1,7 @@
 > [!multi-column]
 > 
 >> [!into] Module Info
+>> 
 >> [Module Webpage](https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs259/)/[Online Material](https://warwick.ac.uk/fac/sci/dcs/teaching/material/cs259/)/[[CS259-Formal-Languages.pdf|Lecture Notes]]
 >> 
 >> **Professor:** [Ramanujan Maadapuzhi Sridharan](https://peoplesearch.warwick.ac.uk/profile/1675336)
@@ -10,6 +11,7 @@
 >> - [Past Papers](https://warwick.ac.uk/exampapers?q=CS259)
 >
 >> [!success] Rating
+>> 
 >> **Difficulty:** 
 >> **Professor:** 
 >> **Teaching Style:**
