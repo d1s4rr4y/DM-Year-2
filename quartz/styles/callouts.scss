@@ -95,7 +95,7 @@
     --bg: none;
     columns: 2 auto;
 
-    & .callout-title {
+    & [callout-title="multi"] {
       display: none;
       gap: 0px;
       padding: 0;
