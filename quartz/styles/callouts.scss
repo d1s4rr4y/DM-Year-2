@@ -89,11 +89,17 @@
     --callout-icon: var(--callout-icon-todo);
   }
 
-  &[data-callout="multicolumn"]{
+  &[data-callout="multi-column"]{
     --color: transparent;
     --border: none;
     --bg: none;
     columns: 2 auto;
+
+    & .callout-title {
+      display: none;
+      gap: 0px;
+    padding: 0;
+    }
 
   }
 
