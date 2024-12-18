@@ -51,11 +51,13 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.Navbar(),
-  ]
+  ],
+  right: []
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.ArticleTitle(), Component.TableOfContents()],
   left: [Component.Navbar()],
+  right: [], 
 }
