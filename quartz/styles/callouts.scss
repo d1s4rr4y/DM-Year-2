@@ -94,13 +94,6 @@
     --border: none;
     --bg: none;
     columns: 2 auto;
-
-    & [callout-title="multi"] {
-      display: none;
-      gap: 0px;
-      padding: 0;
-    }
-
   }
 
   &[data-callout="tip"] {
