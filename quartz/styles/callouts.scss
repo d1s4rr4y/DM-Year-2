@@ -95,9 +95,14 @@
     --bg: none;
     columns: 2 auto;
 
-    .callout-title {
-      display: none;
+    & > .callout-title {
+      display: none !important;
+      & > .callout-title-inner > p {
+        display: none !important;
+      }
     }
+
+
   }
 
   &[data-callout="tip"] {
