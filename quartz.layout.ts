@@ -52,10 +52,7 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.Navbar(),
   ],
-  right: [
-    // Component.DesktopOnly(Component.TableOfContents()),
-    Component.ContentMeta(),
-  ]
+  right: []
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
