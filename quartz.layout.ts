@@ -53,7 +53,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Navbar(),
   ],
   right: [
-    Component.DesktopOnly(Component.TableOfContents()),
+    // Component.DesktopOnly(Component.TableOfContents()),
     Component.ContentMeta(),
   ]
 }
