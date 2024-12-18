@@ -89,6 +89,14 @@
     --callout-icon: var(--callout-icon-todo);
   }
 
+  &[data-callout="multicolumn"]{
+    --color: transparent;
+    --border: none;
+    --bg: none;
+    columns: 2 auto;
+
+  }
+
   &[data-callout="tip"] {
     --color: #00bfa5;
     --border: #00bfa544;
