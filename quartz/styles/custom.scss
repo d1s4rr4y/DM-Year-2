@@ -156,13 +156,12 @@
   }
 
 em { 
-    color: #a177c4 !important;
-    // color: var(--dark) !important;
+    color: var(--yellow) !important;
     font-style: italic;
 }
 
 strong { 
-    color: #907AA9 !important;
+    color: var(--yellow) !important;
     font-style: bold;
 }
 
@@ -195,7 +194,6 @@ strong {
 }
 
 // NEW CODE
-
 .explorer {
     text-align: center;
 
@@ -207,6 +205,10 @@ strong {
         color: inherit;
     }
 } 
+
+.article-title {
+  color: var(--yellow);
+}
 
 #toc-content ul,
 #toc-content-mobile ul {

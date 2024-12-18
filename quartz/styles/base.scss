@@ -63,18 +63,23 @@ a {
   font-weight: 600;
   text-decoration: none;
   transition: color 0.2s ease;
-  color: var(--secondary);
+  color: var(--orange);
 
   &:hover {
-    color: var(--tertiary) !important;
+    color: var(--yellow);
   }
 
   &.internal {
-    text-decoration: underline wavy 1px;
+    color: inherit;
+    text-decoration: none;
     background-color: transparent;
     padding: 0 0.1rem;
     border-radius: 5px;
     line-height: 1.4rem;
+
+    > path {
+      fill: var(--dark);
+    }
 
     &:has(> img) {
       background-color: none;
@@ -164,7 +169,7 @@ a {
       width: $sidePanelWidth;
       margin-top: calc($topSpacing + 40px);
       box-sizing: border-box;
-      padding: 0 4rem;
+      padding: 0 0rem;
       position: fixed;
       @media all and (max-width: $fullPageWidth) {
         position: initial;
@@ -185,6 +190,7 @@ a {
 
     & .sidebar.right {
       display: none;
+      width: 0 !important;
       right: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth);
       flex-wrap: wrap;
       & > * {
@@ -270,15 +276,32 @@ h5,
 h6,
 thead {
   font-family: var(--headerFont);
-  color: var(--dark);
+  // color: var(--red) !important;
   font-weight: revert;
   margin-bottom: 0;
 
-  article > & > a[role="anchor"] {
-    color: var(--dark);
+  article > & > a[class="alias"] {
+    // color: var(--red) !important;
     background-color: transparent;
   }
 }
+
+h1 {
+  color: var(--red);
+}
+
+h2 {
+  color: var(--yellow);
+}
+
+h3 {
+  color: var(--green);
+}
+h4 {
+  color: var(--purple);
+}
+
+
 
 h1,
 h2,
