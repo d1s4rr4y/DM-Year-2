@@ -7,7 +7,7 @@
 >> **Professor:** [Ranko Lazic](https://peoplesearch.warwick.ac.uk/profile/0070379)
 >> **Term:** 2
 >> **Status:** Core
->> **Assessment:** *80%* 2 hour exam, *20%* Assignments
+>> **Assessment:** *80%* exam, *20%* assignments
 >> - [Past Papers](https://warwick.ac.uk/exampapers?q=CS254)
 >> 
 >

@@ -6,7 +6,7 @@
 >> **Professor:** [Andras Mathe](https://warwick.ac.uk/fac/sci/maths/people/staff/Andras_Mathe/)
 >> **Term:** 2
 >> **Status:** Core 
->> **Assessment:** *85%* 2 hour exam, *15%* Assignments
+>> **Assessment:** *85%* exam, *15%* Assignments
 >> -  [Past Papers](https://warwick.ac.uk/exampapers?q=MA222)
 >> 
 >> **Assumed Knowledge:**

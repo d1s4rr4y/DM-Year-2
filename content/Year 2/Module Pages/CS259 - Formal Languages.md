@@ -7,7 +7,7 @@
 >> **Professor:** [Ramanujan Maadapuzhi Sridharan](https://peoplesearch.warwick.ac.uk/profile/1675336)
 >> **Term:** 2
 >> **Status:** Core
->> **Assessment:** *70%* exam, *20%* Programming Coursework, *10%* Class Test
+>> **Assessment:** *70%* exam, *20%* programming coursework, *10%* class test
 >> - [Past Papers](https://warwick.ac.uk/exampapers?q=CS259)
 >
 >> [!success] Rating

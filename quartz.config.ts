@@ -5,7 +5,7 @@ const config: QuartzConfig = {
   configuration: {
     pageTitle: "Ray's Notes",
     enableSPA: true,
-    enablePopovers: false,
+    enablePopovers: true,
     analytics: null,
     locale: "en-US",
     baseUrl: "d1s4rr4y.github.io/DM-Year-2",

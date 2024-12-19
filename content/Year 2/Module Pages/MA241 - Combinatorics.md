@@ -6,16 +6,16 @@
 >> **Professor:** [Rob Silversmith](https://peoplesearch.warwick.ac.uk/profile/2073543)
 >> **Term:** 1
 >> **Status:** Core
->> **Assessment:** *90%* 2 hour exam, *10%* Assignments
+>> **Assessment:** *90%* exam, *10%* Assignments
 >> -  [Past Papers](https://warwick.ac.uk/exampapers?q=MA241)
 >> 
 >
 >> [!success] Rating
 >> 
->> **Difficulty:** ★★★★☆
+>> **Difficulty:** 
 >> **Professor:** 
 >> **Teaching Style:**
->> *Would take again?* ✓
+>> *Would take again?* 
 # Content & Summaries
 | Topic                         | Rating | Summary                                                                                                                                                                                                                                                                                                                                                                                      |
 | ----------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
