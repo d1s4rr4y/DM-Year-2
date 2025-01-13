@@ -25,13 +25,17 @@
 | [[1.3 Fermat Primes, Mersenne Primes, and Perfect Numbers]] |        |         |
 | [[1.4 Congruences]]                                         |        |         |
 | [[1.5 Linear Congruences]]                                  |        |         |
-| [[Congruences]]                                             |        |         |
-| [[Quadratic reciprocity]]                                   |        |         |
-| [[Diophantine equations]]                                   |        |         |
-| [[Elementary factorization algorithms]]                     |        |         |
-| [[Cryptography]]                                            |        |         |
-| [[p-adic numbers, Hasse Principle]]                         |        |         |
-| [[Geometry of numbers]]                                     |        |         |
+| [[1.6 Standard Congruences]]                                |        |         |
+| [[1.7 Primitive Roots]]                                     |        |         |
+| [[1.8 Quadratic Residues]]                                  |        |         |
+| [[2.1 The Geometry of Numbers]]                             |        |         |
+| [[2.2 Sums of Squares]]                                     |        |         |
+| [[2.3 Gaussian Primes]]                                     |        |         |
+| [[2.4 Pythagorean Triples]]                                 |        |         |
+| [[2.5 Ternary Quadratic Equations]]                         |        |         |
+| [[2.6 Hensel's Lemma]]                                      |        |         |
+| [[2.7 Waring's Problem]]                                    |        |         |
+| [[2.8 Diophantine Approximation]]                           |        |         |
 # Reading List
 - H. Davenport, [The Higher Arithmetic](obsidian://open?vault=Obsidian%20Vault&file=Uni%20Stuff%2FYear%202%2FBooks%2FH.%20Davenport.pdf), Cambridge University Press
 - G. H. Hardy & E. M. Wright, [An Introduction to the Theory of Numbers](obsidian://open?vault=Obsidian%20Vault&file=Uni%20Stuff%2FYear%202%2FBooks%2Fhardy-wright-theory_of_numbers.pdf), Oxford University Press 1979

@@ -1,61 +1,99 @@
-It is difficult to precisely define a greedy algorithm. One definition is an algorithm that *builds up to a solution in small steps*. In other words, a greedy algorithm attempts to find a *global optimum* through iterative local optimisation (essentially, it operates on the principle of choosing the best option at the time, without considering long-term consequences). 
+>[!note] Contents
+>1. [[#The Interval Scheduling Problem]]
+>2. [[#The Interval Partitioning (Colouring) Problem]]
+>3. Minimising Lateness
+>4. Strategies of Analysis
 
-There are 2 practical methods of proving a greedy algorithm provides an optimal solution: (note this says "an" optimal solution, not "the" optimal solution). 
-- Stay Ahead
-- Exchange Argument
+A *greedy algorithm* attempts to find a *global optimum* through iterative local optimisation. The heuristic/rule we use to decide how to proceed at each stage is called the *greedy rule*, which should be easy to compute.
 
-## Staying Ahead 
-An algorithm that "stays ahead" is at least as good as any other algorithm at each stage of execution, and therefore it must be optimal. To demonstrate a "staying ahead" proof, we take the **interval scheduling problem**
+In this module, we explore 2 practical methods of proving that a greedy algorithm produces an optimal solution:
+- Staying ahead (& the interval scheduling problem)
+- The exchange argument 
+Note the fact it produces "an" optimal solution, not "the" optimal solution - there may be more than one.
 
-### The Interval Scheduling Problem
+An algorithm with "stays ahead" is at least as good as any other algorithm at each stage of execution, and therefore must be optimal. To demonstrate a "staying ahead" proof we examine <span style="font-variant:small-caps;">The Interval Scheduling Problem</span>
+
+--- 
+## The Interval Scheduling Problem
+- - - 
 **Input:** A set of intervals $I = [n]$ such that $s(i)$ and $f(i)$ refer to the start and finish time of interval $i$ respectively
-**Output:** The largest subset $S \subseteq I$ such that no two intervals are *incompatible*. Two intervals $i$ and $j$ are incompatible if and only if $s(i) < f(j)$ or $s(j) < f(i)$ (i.e. they overlap)
+**Output:** The largest subset $S \subseteq I$ such that no two intervals are *incompatible*. (Two intervals $i$ and $j$ are incompatible if and only if $s(i) < f(j)$ or $s(j) < f(i)$, i.e. they overlap) 
 
-There are a few intuitive greedy rules that could be applied:
-- Earliest start time first: pick a compatible interval with the earliest start time
-- Shortest first: Pick the shortest compatible interval 
-- Fewest incompatibilities first: Pick a compatible interval with the fewest incompatibilities with the remaining intervals
-- Earliest finish time first: pick a compatible interval with the earliest finish time
-Only the "earliest finish time first" strategy is both correct and optimal. 
+This can be solved using a greedy algorithm, but we need to define the rules that allow us to implement it. We can sort the intervals by a specific rule, then take intervals in order, providing they are compatible with all intervals already selected. 
 
-Below is an example implementation of this strategy, in $O(n \cdot \log(n))$ time. 
->[!note]- Example Implementation
+The rule used to order the intervals can be many things: earliest start time, earliest finish time, or shortest interval all being possibilities. 
+
+The only correct and optimal rule is earliest finish time, with the following algorithm: 
+
+>[!note] Interval Scheduling Problem
+>$$\begin{aligned} &\text{sort intervals by finish time, and renumber them such that } f(1) \le f(2) \le ... \le f(n) \\ &S = \emptyset \\ &\text{for } j = 1..n:\\ &\quad \text{if interval } j \text{ compatible with } S:\\ &\qquad S\text{.add}(j)\\ &\text{return } S \end{aligned} $$
+>We can prove this algorithm runs with $O(n\log n)$: 
+>>[!note]- Proof of Runtime
+>>
+>>We know that sorting is at best $O(n \log n).
+>>We can prove that the for loop is only $O(n)$. If the for loop is $O(n)$, the compatibility check must be $O(1)$.
+>>- If we keep track of an interval $j^*$, which is the *last interval* added to $S$
+>>- $j$ is compatible with $S$ if and only if $s(j) \ge f(j^*)$
+>>Therefore, comparison is indeed $O(1)$
 >
->$i \leftarrow 0$
->$\operatorname{SORT}(I)$
->$A \leftarrow \emptyset$
->while $i \le n$ do:
->	....$x \leftarrow  I[i]$
->	....$A \leftarrow  A \cup \{x\}$
->	....while $s(I[i]) < f(x)$ do
->	........$i++$
->	....end
->end
->return $A$
+>We must also prove the correctness of the algorithm, i.e. that the Earliest Finish First algorithm is optimal
+>>[!note]- Proof of Correctness
+>>
+>>We will prove by contradiction. Let us assume that the Earliest Finish First algorithm is not optimal.
+>>Let $i_1, i_2,...,i_k$ be the set of intervals selected by EFF
+>>Let $j_1, j_2,...,j_m$ be the optimal set, with $i_1 = j_1, i_2 = j_2,...i_r = j_r$ for as large of a value of $r$ as possible. If EFF is not optimal, $m > k$.
+>>If interval $i_{r + 1}$ doesn't exist, then by nature of the algorithm all jobs after $i_r$ are incompatible with it. However, since $i_r = j_r$, and we know that the optimal must *strictly* have more jobs than EFF, there must be compatible jobs after $i_r$, and this we reach a contradiction. 
+>>If interval $i_{r+1}$ exists, it cannot finish later than $j_{r+1}$ because of the sorting rule. Thus we can just replace $j_{r+1}$ with $i_{r+1}$ and guarantee that all jobs $j_r + 2$ and afterwards are compatible. This the optimal is still optimal, and the condition that we have met the *largest possible* $r$ has been violated. 
 
-### Interval Colouring
-Consider the following scenario: a conference organiser is renting a venue for a series of talks. They know there are $n$ talks, and the start and finish times of each. The venue providers charge by the number of rooms needed - how should the organiser minimise the cost?
+---
+## The Interval Partitioning (Colouring) Problem
+- - - 
+Another common interval problem is the interval partitioning problem - consider the scenario that you are once again arranging a set of intervals $I$. Interval $i \in I$ has start time $s(i)$ and finish time $f(i)$. Your goal is to find the *minimum* number of groups the intervals can be split into, thus *all* $i \in I$ are scheduled such that none are incompatible. 
 
-This problem is called the **interval colouring** or **interval partitioning** problem:
+**Input:** A set of intervals $I = [n]$ such that $s(i)$ and $f(i)$ refer to the start and finish time of interval $i$ respectively
+**Output:** The smallest possible collection of sets of compatible intervals
 
-#### The Problem
+Recall the "earliest start time first" rule from earlier. We can prove that while it was incorrect for the **interval scheduling** problem, it is correct and optimal for **interval partitioning**: 
 
-**Input:** A set of intervals $I = [n]$ such that $s(i)$ and $f(i)$ refer to the start and finish time of interval $i \in I$. 
-**Output:** A colouring $k: [n] \to [d]$ where $d$ is minimal and no two $i, j$, where $k(i) = k(j)$ are incompatible. 
+>[!note] Interval Partitioning Problem
+>$$\begin{aligned} 
+&\text{sort intervals by start time, and renumber them such that } s(1) \le s(2) \le ... \le s(n) \\ 
+& d = 0 \text{ \# number of allocated rooms} \\ 
+&\text{for } j = 1..n:\\ 
+&\quad \text{if interval } j \text{ compatible with all intervals in any set } k \\ 
+&\qquad \text{schedule} j \text{ in } k\\ 
+&\quad\text{else: }\\ 
+&\qquad \text{allocate new set } d + 1 \\ 
+&\qquad \text{ schedule } j \text{ in set } d + 1\\
+&\text{return the schedule}
+\end{aligned}$$
+>
+>If we use a suitable data structure to store the set of schedules, we can prove this algorithm runs with $O(n\log n)$: 
+>>[!note]- Proof of Runtime
+>>
+>>We know that sorting is at best $O(n \log n). If we store the set of schedules in a *priority queue* with the key being the finish time of the last interval:
+>>- When we allocate a new schedule, we insert it in to the priority queue
+>>- When we schedule $j$ in $k$, we increase the key of $k$ to $f(j)$
+>>- To determine whether $j$ is compatible with any $k$, we compare $s(j)$ to findMin of the priority queue
+>> The total number of searches in the priority queue is of order $O(n)$, where each priority queue operation is $O(\log n)$, and therefore we get $O(n \log n)$
+>
+>> [!note] Definition
+>> The **depth** of a set of open intervals is the maximum number of intervals that contain some point, i.e. the point where the most intervals overlap from all schedules determines the depth (which will equal the number of separate schedules)
+>
+>We must also prove the correctness of the algorithm, i.e. that the Earliest Start First (ESF) algorithm is optimal
+>>[!note]- Proof of Correctness
+>>
+>>Let $d =$ the number of schedules ESF allocations
+>>Schedule number $d$ is opened because we need to schedule an interval $j$, which is incompatible with all intervals in schedules $1..d-1$.
+>>Because of the earliest start sort, each incompatible interval in all prior schedules must have a start time $\le s(j)$. Additionally, all $d$ intervals (including $j$) will have ended by $f(j)$.
+>>Thus there will be $d$  intervals overlapping at some time $s(k) + \epsilon$ for a number $\epsilon$, which is our depth. Since depth = number of schedules by definition, this demonstrates that ESF is optimal.
 
-Recall the "earliest start time first" rule from earlier. We can prove that while it was incorrect for the **interval scheduling** problem, it is correct and optimal for **interval colouring**. The algorithm for this uses $O(n \cdot \log(n))$ sorting, so is $O(n \cdot \log(n))$ overall. 
-
-#### Proof of correctness 
-Given a set of intervals $I = [n]$, let the *depth* of $I$ be defined as the maximum number of mutually incompatible intervals. We claim the following:
->[!warning] **THEOREM**
->The number of resources needed to colour $I$ is at least the depth of $I$.
->> [!note]- Proof
->> 
->> Suppose for contradiction that the claim is false. Then $I$ has a colouring $k$ that uses $d$ colours, where $d$ is less than the depth of $I$. Let $S$ be a set of mutually incompatible intervals of size equal to the depth of $I$. By the pigeonhole principle, at least two distinct elements of $S$ share a colour w.r.t. $k$, which is a contradiction
 
 
-> [!warning] **CLAIM**
-> The *Earliest Start Time First* greedy rule is optimal for the *Interval Colouring* problem. 
+
+
+
+
 
 ## Exchange Argument 
 Broadly, an *exchange argument* is a proof which shows that a modification to a given solution can only make it less optimal (and hence the solution must be optimal).
