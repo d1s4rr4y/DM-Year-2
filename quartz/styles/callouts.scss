@@ -15,7 +15,7 @@
     border-left: 2px solid var(--border);
   } 
 
-  --bg: color-mix(in srgb, var(--color) 4%, var(--base));
+  --bg: color-mix(in srgb, var(--color) 20%, var(--base));
 
   background-color: var(--bg);
   scrollbar-color: var(--lightgray) var(--bg);
