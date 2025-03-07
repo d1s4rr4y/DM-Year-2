@@ -51,7 +51,7 @@ Traditional long multiplication takes $O(n^2)$ time - can we do any better?
 ### Karatsuba Multiplication 
 It was shown in 1960 by a Russian mathematics student Anatoly Karatsuba that we can. His method makes use of divide and conquer to reduce the number of individual multiplications required to compute a product of two integers. 
 
-To multiply two number with a representation of length $n$ in base $B, we can split each number into the lower half of its bits (which have the subscript $L$ below), and the upper half of its bits (with subscript $H$). To account for the bit shift we need an extra factor of $B^{\frac{n}{2}}$ for the upper components, but note these are quick to compute as left/right bitshifts can be done in constant time. 
+To multiply two number with a representation of length $n$ in base $B$, we can split each number into the lower half of its bits (which have the subscript $L$ below), and the upper half of its bits (with subscript $H$). To account for the bit shift we need an extra factor of $B^{\frac{n}{2}}$ for the upper components, but note these are quick to compute as left/right bitshifts can be done in constant time. 
 
 $$
 (x_H B^{\frac{n}{2}} + x_L)(y_H B^{\frac{n}{2}} + y_L)
