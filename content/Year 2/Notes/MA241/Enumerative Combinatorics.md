@@ -76,7 +76,7 @@ Recall that if $K$ and $N$ are sets, a *function* $f: K \to N$ assigns a single 
 > It is only possible to have such a function if $K$ has at most as many elements as $N$, i.e $|K| \le |N|$
 
 > [!warning] **DEFINITION** Surjective
-> A function $f: K \to N$ is *surjective* or *onto* if it takes each value at least once - i.e. if every $n \in N$ is equal to $f(k) for some $k \in K$. 
+> A function $f: K \to N$ is *surjective* or *onto* if it takes each value at least once - i.e. if every $n \in N$ is equal to $f(k)$ for some $k \in K$. 
 > It is only possible to have such a function if $K$ has at least as many elements as $N$, i.e. $|K| \ge |N|$
 
 > [!warning] **DEFINITION** Bijective
@@ -162,7 +162,7 @@ Similarly to the binomial coefficients, we can make observations by writing the 
 > $S(k, n) = S(k - 1, n - 1) + nS(k - 1, n)$
 >> [!note]- Proof
 >> 
->> Does $1 \in [k]$ form a singleton block? If yes, there are $K(k - 1, n - 1) ways to partition the rest of the set. If no, removing $1$ yields a partition of $[k] \backslash \{1\} = \{2, ..., k \}$ into $n$ pieces, and $1$ must have come from one of these pieces. 
+>> Does $1 \in [k]$ form a singleton block? If yes, there are $K(k - 1, n - 1)$ ways to partition the rest of the set. If no, removing $1$ yields a partition of $[k] \backslash \{1\} = \{2, ..., k \}$ into $n$ pieces, and $1$ must have come from one of these pieces. 
 >
 >> [!note] Notes
 >> 
@@ -191,7 +191,7 @@ If we have $k$ unlabelled balls, and $n$ labelled boxes (of arbitrary capacity),
 > Note that we get a recursion $C_{k, n} = \sum_{i = 0}^{k} F_{k - i, n - 1}$
 > 
 > This example can be redrawn as follows: 
-> \*\*\*||     \*\*|\*|     \*\*||*     \*|\*\*|     \*|\*|\*|
+> \* \* \*||     \*\*|\*|     \*\*||*     \*|\*\*|     \*|\*|\*|
 > \*||\*\*     |\*\*\*|     |\*\*|\*     |\*|\*\*     ||\*\*\*
 > 
 > They are sequences of 5 symbols, with 2 bars and 3 stars. That is, choose 3 stars out of 5 slots. 

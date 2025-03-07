@@ -19,11 +19,10 @@ A *norm* on a vector space is a generalised notion of "length" of a vector.
 >
 >The triangle inequality proof is non-examinable, but I will show this below. 
 >Let $x \cdot y$ denote the "dot product": $x \cdot y = \sum_{j=1}^{n} x_j y_j$. We have
->$$\begin{align}
->||x + y||^2 = (x+y)\cdot (x+y) &= ||x||^2 + 2x \cdot y + ||y||^2\\
->& \le ||x||^2 + 2||x|| ||y|| + ||y||^2\\
->& \le (||x|| + ||y||)^2 
->\end{align}$$
+>
+>$$||x + y||^2 = (x+y)\cdot (x+y) = ||x||^2 + 2x \cdot y + ||y||^2$$
+>$$le ||x||^2 + 2||x|| ||y|| + ||y||^2$$
+>$$le (||x|| + ||y||)^2$$
 >Using the inequality $|x \cdot y| \le ||x||||y||$ 
 >
 
