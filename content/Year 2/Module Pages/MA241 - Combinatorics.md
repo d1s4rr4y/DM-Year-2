@@ -10,17 +10,17 @@
 >> -  [Past Papers](https://warwick.ac.uk/exampapers?q=MA241)
 >> 
 >
->> [!success] Rating
+>> [!success] Rating (Personal Opinion)
 >> 
->> **Difficulty:** 
->> **Professor:** 
->> **Teaching Style:**
->> *Would take again?* 
+>> **Difficulty:** ★★☆☆☆
+>> **Professor:** ★★★★★
+>> **Teaching Style:** ★★★★☆
+>> *Would take again?* Yes
 # Content & Summaries
 | Topic                         | Rating | Summary                                                                                                                                                                                                                                                                                                                                                                                      |
 | ----------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Enumerative Combinatorics]] |        | Basic counting (Lists with and without repetitions, Binomial coefficients and the Binomial Theorem)<br>Applications of the Binomial Theorem (Multinomial Theorem, Multiset formula, Principle of inclusion/exclusion)<br>Linear recurrence relations and the Fibonacci numbers<br>Generating functions and the Catalan numbers<br>Permutations, Partitions and the Stirling and Bell numbers |
-| [[Graph Theory]]              |        | Basic concepts (isomorphism, connectivity, Euler circuits)<br>Trees (basic properties of trees, spanning trees, counting trees)<br>Planarity (Euler's formula, Kuratowski’s theorem, the Four Colour Problem)<br>Matching Theory (Hall's Theorem and Systems of Distinct Representatives)<br>Elements of Ramsey Theory                                                                       |
+| [[Enumerative Combinatorics]] | ★★★★★  | Basic counting (Lists with and without repetitions, Binomial coefficients and the Binomial Theorem)<br>Applications of the Binomial Theorem (Multinomial Theorem, Multiset formula, Principle of inclusion/exclusion)<br>Linear recurrence relations and the Fibonacci numbers<br>Generating functions and the Catalan numbers<br>Permutations, Partitions and the Stirling and Bell numbers |
+| [[Graph Theory]]              | ★★★★☆  | Basic concepts (isomorphism, connectivity, Euler circuits)<br>Trees (basic properties of trees, spanning trees, counting trees)<br>Planarity (Euler's formula, Kuratowski’s theorem, the Four Colour Problem)<br>Matching Theory (Hall's Theorem and Systems of Distinct Representatives)<br>Elements of Ramsey Theory                                                                       |
 # Reading List
 - Edward E. Bender and S. Gill Williamson, [Foundations of Combinatorics with Applications](http://www.math.ucsd.edu/~ebender/CombText/), Dover Publications, 2006.
 - John M. Harris, Jeffry L. Hirst and Michael J. Mossinghoff, _Combinatorics and Graph Theory_, Springer-Verlag, 2000.
