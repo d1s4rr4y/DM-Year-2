@@ -270,7 +270,7 @@ article[data-use-dropcap="true"] > p:first-of-type .small-caps {
 
   --before-color: var(--midground-faint);
 
-  &::before {
+  ::before {
     font-family: var(--font-dropcap-background);
     color: var(--before-color);
     content: attr(data-first-letter);
