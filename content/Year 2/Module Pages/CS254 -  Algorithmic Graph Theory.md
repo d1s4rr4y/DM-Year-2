@@ -25,3 +25,20 @@
 | [[Further algorithmic problems on graphs]]          |        | minimum spanning trees, shortest path problems, matching problems. Planar graphs and their properties. Euler's formula, planar separator theorem and their algorithmic applications. Further optimization problems on graphs including graph colouring and graph questions in distributed systems. Discussing practical applications of graphs and efficient algorithms for such practical problems. Approximation algorithms and heuristic algorithms. Applications to searching in massive graphs (e.g. page ranking); use of structural properties and algebraic properties. |
 # Reading List
 - [Talis Aspire](https://rl.talis.com/3/warwick/lists/24561A00-9679-A3C1-A44F-F7F6F3C7AFCC.html?lang=en-GB)
+
+<div class="grid-container">
+	<a href="./Notes/CS254/Introduction-to-graphs" class="grid-item type-1">
+		<div class="title">Introduction To Graphs</div>
+		<div class="description">Lorem Ipsum yada yada</div>
+	</a>
+
+	<a href="./Notes/CS254/Basic-algorithmic-techniques-for-graph-problems" class="grid-item type-2">
+		<div class="title">Introduction To Graphs</div>
+		<div class="description">Lorem Ipsum yada yada</div>
+	</a>
+	
+	<a href="Further-algorithmic-problems-on-graphs" class="grid-item type-3">
+		<div class="title">Introduction To Graphs</div>
+		<div class="description">Lorem Ipsum yada yada</div>
+	</a>
+</div>
