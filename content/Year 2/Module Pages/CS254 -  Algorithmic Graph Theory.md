@@ -3,7 +3,7 @@
 		<div class="title">Module Info</div>
 		<div class="description">
 			<a href="https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs254/">Module Webpage</a>
-			<p><b>Professor:</b><a href=""> Ranko Lazic</a></p>
+			<p><b>Professor:</b><a href="https://warwick.ac.uk/fac/sci/dcs/people/ranko_lazic/"> Ranko Lazic</a></p>
 			<p><b>Term:</b> 2</p>
 			<p><b>Status:</b> Core</p>
 			<p><b>Assessment: </b><em>80%</em> Exam, <em>20%</em> Assignments</p>
