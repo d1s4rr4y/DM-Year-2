@@ -41,6 +41,3 @@
 
 # Reading List
 - [Talis Aspire](https://rl.talis.com/3/warwick/lists/24561A00-9679-A3C1-A44F-F7F6F3C7AFCC.html?lang=en-GB)
-
-
-
