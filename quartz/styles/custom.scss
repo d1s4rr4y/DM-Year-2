@@ -265,7 +265,6 @@ strong {
   font-size: 1em;
 }
 
-
 /* Index Page Boxes */
 
 .grid-item.type-1 {
@@ -292,17 +291,6 @@ strong {
   background-color: #303030;
 }
 
-.grid-item.type-info {
-  background-color: #5e81ac1a;
-  text-align: left !important;
-}
-
-.grid-item.type-review {
-  background-color: #a3be8c1a;
-  text-align: left !important;
-}
-
-
 .grid-item {
   padding: 15px !important;
 }
@@ -311,4 +299,27 @@ strong {
   margin: 5px;
 }
 
+.grid-item.type-info {
+  align-items: start !important;
+  background-color: #5e81ac1a;
+  text-align: left !important;
+  padding: 30px !important;
+  justify-content: start !important;
+}
+
+.grid-item.type-review {
+  background-color: #a3be8c1a;
+  text-align: left !important;
+  align-items: start !important;
+  padding: 30px !important;
+  justify-content: start !important;
+}
+
+.grid-item.type-info > .title {
+  color: #5e81ac;
+}
+
+.grid-item.type-review > .title {
+  color: #a3be8c;
+}
 
