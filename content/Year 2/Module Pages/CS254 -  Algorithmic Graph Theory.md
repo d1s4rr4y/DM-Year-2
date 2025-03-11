@@ -27,7 +27,7 @@
 - [Talis Aspire](https://rl.talis.com/3/warwick/lists/24561A00-9679-A3C1-A44F-F7F6F3C7AFCC.html?lang=en-GB)
 
 <div class="grid-container">
-<a href="Year-2/Notes/CS254/Introduction-to-graphs" class="grid-item type-1">
+<a href="[[Introduction to graphs]]" class="grid-item type-1">
 <div class="title">Introduction To Graphs</div>
 <div class="description">Lorem Ipsum yada yada</div>
 </a>
