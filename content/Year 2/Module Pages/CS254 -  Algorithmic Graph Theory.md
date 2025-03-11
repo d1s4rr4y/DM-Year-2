@@ -25,15 +25,18 @@
 
 # Content
 <div class="grid-container">
-<a href="Year-2/Notes/CS254/Introduction-to-graphs" class="grid-item type-1">
+<a href="Year-2/Notes/CS254/Introduction-to-graphs" class="grid-item type-content">
+<div class="icon">📈</div>
 <div class="title">Introduction To Graphs</div>
 <div class="description">Lorem Ipsum yada yada</div>
 </a>
-<a href="Year-2/Notes/CS254/Basic-algorithmic-techniques-for-graph-problems" class="grid-item type-2">
+<a href="Year-2/Notes/CS254/Basic-algorithmic-techniques-for-graph-problems" class="grid-item type-content">
+<div class="icon">📊</div>
 <div class="title">Basic Algorithmic techniques for graph problems</div>
 <div class="description">Lorem Ipsum yada yada</div>
 </a>
-<a href="Year-2/Notes/CS254/Further-algorithmic-problems-on-graphs" class="grid-item type-3">
+<a href="Year-2/Notes/CS254/Further-algorithmic-problems-on-graphs" class="grid-item type-content">
+<div class="icon">📉</div>
 <div class="title">Further Algorithmic Problems on Graphs</div>
 <div class="description">Lorem Ipsum yada yada</div>
 </a>
