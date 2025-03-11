@@ -142,8 +142,6 @@ $fonts-dir: "/static/styles/fonts";
 
 @include font-face("FiraCode", "firacode-vf", ".woff2");
 @include font-face("EBGaramond", "EBGaramond/EBGaramond08-Regular", ".woff2");
-@include font-face("EBGaramondInitialsF1", "EBGaramond/EBGaramond-InitialsF1", ".woff2");
-@include font-face("EBGaramondInitialsF2", "EBGaramond/EBGaramond-InitialsF2", ".woff2");
 
 @font-face {
   font-family: EBGaramondItalic;
@@ -152,6 +150,18 @@ $fonts-dir: "/static/styles/fonts";
   font-style: italic;
   font-optical-sizing: auto;
   font-display: swap;
+}
+
+@font-face {
+  font-family: "EBGaramondInitialsF1";
+  src: url("../static/styles/fonts/EBGaramond/EBGaramond-InitialsF1.woff2") format("woff2");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "EBGaramondInitialsF2";
+  src: url("../static/styles/fonts/EBGaramond/EBGaramond-InitialsF2.woff2") format("woff2");
+  font-display: block;
 }
 
 @include font-face("EBGaramondOriginal", "EBGaramond/EBGaramond08-Regular-original", ".woff2");
@@ -166,6 +176,9 @@ $fonts-dir: "/static/styles/fonts";
 @include font-face("Elvish", "tengwar_annatar/TengwarAnnatar", ".woff2");
 @include font-face("ElvishItalic", "tengwar_annatar/TengwarAnnatar-Italic", ".woff2");
 
+
+
+
 body {
   --font-monospace: "FiraCode", "JetBrains Mono", "Courier New", monospace;
   --font-monospace-theme: "FiraCode", "JetBrains Mono", "Courier New", monospace;
@@ -176,6 +189,8 @@ body {
   --font-text-header: "EBGaramond", garamond, "Times New Roman", serif;
   --font-text-sc: "EBGaramondSC", "EBGaramond:smcp", "Garamond SC", small-caps, serif;
   --font-text-swash: "EBGaramond:+swsh", cursive;
+  --font-dropcap-foreground: "EBGaramondInitialsF2", serif;
+  --font-dropcap-background: "EBGaramondInitialsF1", serif;
 
   line-height: var(--base-line-height);
   font-family: var(--font-text);
@@ -219,6 +234,83 @@ body {
       opacity: 1;
       text-shadow: 0 0 10px color-mix(in srgb, var(--yellow) 50%, transparent);
     }
+  }
+}
+
+// For usage in the middle of a paragraph
+.dropcap {
+  display: inline-block;
+  font-family: var(--font-dropcap-foreground);
+  color: var(--foreground);
+  position: relative;
+  text-transform: uppercase;
+  margin-right: 0.05rem;
+  padding-top: 0;
+
+  // Inline dropcaps should be slightly higher than the baseline
+  p & {
+    vertical-align: -0.15rem;
+  }
+
+  --before-color: var(--midground-faint);
+
+  &::before {
+    font-family: var(--font-dropcap-background);
+    color: var(--before-color);
+    content: attr(data-first-letter);
+    text-transform: uppercase;
+    position: absolute;
+    cursor: text;
+  }
+}
+
+article[data-use-dropcap="true"] {
+  --dropcap-vertical-offset: 0.15rem;
+  --dropcap-font-size: 3.95rem;
+  --before-color: var(--midground-faint);
+
+  & > p:first-of-type {
+    position: relative;
+    min-height: 4.2rem;
+  }
+
+  & > p:first-of-type::before {
+    content: attr(data-first-letter);
+    text-transform: uppercase;
+    position: absolute;
+    top: var(--dropcap-vertical-offset);
+    left: 0;
+    font-size: var(--dropcap-font-size);
+    line-height: 1;
+    padding-right: 0.1em;
+    font-family: var(--font-dropcap-background);
+    color: var(--before-color);
+  }
+
+  & > p:first-of-type::first-letter {
+    padding-top: var(--dropcap-vertical-offset);
+    text-transform: uppercase;
+    font-style: normal !important;
+    float: left;
+    pointer-events: none; /* Ensure it doesn't interfere with user interactions */
+    color: var(--foreground);
+    font-size: var(--dropcap-font-size);
+    line-height: 1;
+    padding-right: 0.1em;
+    font-family: var(--font-dropcap-foreground);
+    font-weight: 500 !important;
+    cursor: text;
+
+    // Firefox-specific adjustments for dropcap
+    @supports (-moz-appearance: none) {
+      padding-top: $base-margin;
+    }
+  }
+
+  & > p:first-of-type em,
+  & > p:first-of-type b,
+  & > p:first-of-type strong {
+    font-family: inherit !important;
   }
 }
 
