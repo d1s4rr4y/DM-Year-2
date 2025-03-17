@@ -1,3 +1,6 @@
+---
+no_dropcap: true
+---
 # Group Cosets & Lagrange's Theorem
 ## Cosets
 **Definition:** Let $G$ be a [[Groups|group]] and $H$ a [[Subgroups|subgroup]]. Get $g$ be an element of $G$. We call the set 

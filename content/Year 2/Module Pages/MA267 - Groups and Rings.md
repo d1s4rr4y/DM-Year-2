@@ -24,14 +24,13 @@
 </div>
 
 # Content
-[[Group theory]] | [[Ring theory]]
 <div class="grid-container">
 <a href="Year 2/Notes/MA268/Group theory.md" class="grid-item type-content internal-link">
 <div class="icon">📈</div>
 <div class="title">Group Theory</div>
 <div class="description">Lorem Ipsum yada yada</div>
 </a>
-<a href="Year-2/Notes/MA268/Ring-theory.md" class="grid-item type-content internal-link">
+<a href="Year 2/Notes/MA268/Ring theory.md" class="grid-item type-content internal-link">
 <div class="icon">📊</div>
 <div class="title">Ring Theory</div>
 <div class="description">Lorem Ipsum yada yada</div>

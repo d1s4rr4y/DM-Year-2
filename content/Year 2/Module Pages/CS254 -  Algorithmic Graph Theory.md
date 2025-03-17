@@ -24,22 +24,21 @@
 </div>
 
 # Content
-[[Introduction to graphs]] | [[Basic algorithmic techniques for graph problems]] | [[Further algorithmic problems on graphs]]
 [[1 - Basics]] | [[2 - Matching]] | [[3 - Connectivity]] | [[4 - Planar Graphs]] | [[5 - Colouring]]
 [[6 - Flows]] | [[7 - Substructures in Dense Graphs]] | [[8 - Substructures in Sparse Graphs]] | [[9 - Ramsey Theory]] | [[10 - Hamilton Cycles]]
 [[11 - Random  Graphs]] | [[12 - Minors, Trees, and WQO]] | 
 <div class="grid-container">
-<a href="Year-2/Notes/CS254/Introduction-to-graphs" class="grid-item type-content">
+<a href="Year 2/Notes/CS254/Introduction to graphs.md" class="grid-item type-content internal-link">
 <div class="icon">📈</div>
 <div class="title">Introduction To Graphs</div>
 <div class="description">Lorem Ipsum yada yada</div>
 </a>
-<a href="Year-2/Notes/CS254/Basic-algorithmic-techniques-for-graph-problems" class="grid-item type-content">
+<a href="Year 2/Notes/CS254/Basic algorithmic techniques for graph problems.md" class="grid-item type-content internal-link">
 <div class="icon">📊</div>
 <div class="title">Basic Algorithmic techniques for graph problems</div>
 <div class="description">Lorem Ipsum yada yada</div>
 </a>
-<a href="Year-2/Notes/CS254/Further-algorithmic-problems-on-graphs" class="grid-item type-content">
+<a href="Year 2/Notes/CS254/Further algorithmic problems on graphs.md" class="grid-item type-content internal-link">
 <div class="icon">📉</div>
 <div class="title">Further Algorithmic Problems on Graphs</div>
 <div class="description">Lorem Ipsum yada yada</div>
