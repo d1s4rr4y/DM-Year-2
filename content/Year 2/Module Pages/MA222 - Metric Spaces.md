@@ -21,6 +21,8 @@
 >> **Teaching Style:**
 >> *Would take again?* 
 # Content & Summaries
+[[Introduction]]
+
 | Topic                                                                      | Rating | Summary |
 | -------------------------------------------------------------------------- | ------ | ------- |
 | [[Normed, Metric and Topological spaces]]                                  |        |         |

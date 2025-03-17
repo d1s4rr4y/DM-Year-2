@@ -17,6 +17,8 @@
 >> **Teaching Style:**
 >> *Would take again?* 
 # Content & Summaries
+[[Definitions]] 
+
 | Topic             | Rating | Summary |
 | ----------------- | ------ | ------- |
 | [[Group theory]]  |        |         |

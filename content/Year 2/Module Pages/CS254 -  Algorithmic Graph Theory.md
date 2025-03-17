@@ -24,6 +24,10 @@
 </div>
 
 # Content
+[[Introduction to graphs]] | [[Basic algorithmic techniques for graph problems]] | [[Further algorithmic problems on graphs]]
+[[1 - Basics]] | [[2 - Matching]] | [[3 - Connectivity]] | [[4 - Planar Graphs]] | [[5 - Colouring]]
+[[6 - Flows]] | [[7 - Substructures in Dense Graphs]] | [[8 - Substructures in Sparse Graphs]] | [[9 - Ramsey Theory]] | [[10 - Hamilton Cycles]]
+[[11 - Random  Graphs]] | [[12 - Minors, Trees, and WQO]] | 
 <div class="grid-container">
 <a href="Year-2/Notes/CS254/Introduction-to-graphs" class="grid-item type-content">
 <div class="icon">📈</div>
@@ -44,5 +48,3 @@
 
 # Reading List
 - [Talis Aspire](https://rl.talis.com/3/warwick/lists/24561A00-9679-A3C1-A44F-F7F6F3C7AFCC.html?lang=en-GB)
-
-Please work for the love of god

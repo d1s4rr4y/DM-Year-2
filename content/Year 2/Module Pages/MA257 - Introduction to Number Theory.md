@@ -18,6 +18,13 @@
 >> **Teaching Style:**
 >> *Would take again?* 
 # Content & Summaries
+[[1 - The Series of Primes (i)]] | [[2 - The Series of Primes (ii)]] | [[3 - Farey Series and a Theorem of Minkowski]] | [[4 - Irrational Numbers]] | [[5 - Congruences and Residues]]
+[[6 - Fermat's Theorem and its Consequences]] | [[7 - General Properties of Congruences]] | [[8 - Congruences to Composite Moduli]] | [[9 - The Representation of Numbers by Decimals]] | [[10 - Continued Fractions]]
+[[11 - Approximation of Irrationals by Rationals]] | [[12 - The Fundamental Theorem of Arithmetic in k(1), k(i) and k(p)]] | [[13 - Some Diophantine Equations]] | [[14 - Quadratic Fields (i)]] | [[15 - Quadratic Fields (ii)]]
+[[16 - The Arithmetical Functions]] | [[17 - Generating Functions of Arithmetical Functions]] | [[18 - The Order of Magnitude of Arithmetical Functions]] | [[19 - Partitions]] | [[20 - The Representation of a Number by Two or Four Squares]]
+[[21 - Representation by Cubes and Higher Powers]] | [[22 - The Series of Primes (iii)]] | [[23 - Kronecker's Theorem]] | [[24 - Geometry of Numbers]] | [[25 - Elliptical Curves]]
+
+
 | Topic                                                       | Rating | Summary |
 | ----------------------------------------------------------- | ------ | ------- |
 | [[1.1 Euclid's Algorithm]]                                  |        |         |
