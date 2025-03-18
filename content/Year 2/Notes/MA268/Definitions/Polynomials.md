@@ -1,3 +1,6 @@
+---
+no_dropcap: true
+---
 Let $R$ be a commutative ring. Recall that $R[X]$ denotes the ring of polynomials in $X$ with coefficients in $R$. A polynomial in $X$ with coefficients in $R$ has the form 
 $$a_0 + a_1X + a_2X^2 + ... + a_nX^n$$ for $a_i \in R$ 
 Expressions such as $1 / X$ and $(X + 1)/(X^2 + 1)$ are **not** polynomials, they are rational functions (a rational function is the ratio of two polynomials)

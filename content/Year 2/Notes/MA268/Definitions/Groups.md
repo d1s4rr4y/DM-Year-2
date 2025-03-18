@@ -1,3 +1,6 @@
+---
+no_dropcap: true
+---
 A **group** is a pair $(G, \circ)$ where $G$ is a set and $\circ$ is a binary operation on $G$ such that the following properties hold: 
 - **Closure:** $a \circ b \in G$ for all $a, b \in G$ 
 - **Associativity:** $a \circ ( b \circ c) = (a \circ b) \circ c$ for all $a, b, c \in G$ 

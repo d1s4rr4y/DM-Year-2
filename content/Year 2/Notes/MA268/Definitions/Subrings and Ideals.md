@@ -1,3 +1,6 @@
+---
+no_dropcap: true
+---
 **Definition:** Let $R$ be a ring. A subset $S \subseteq R$ is a *subring* of $R$ if it is a ring with respect to the same operations and identity elements.
 
 **Lemma:** Let $R$ be a ring. Then $S \subseteq R$ is a subring if and only if

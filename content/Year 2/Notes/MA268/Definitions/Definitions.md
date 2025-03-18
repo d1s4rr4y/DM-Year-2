@@ -1,3 +1,6 @@
+---
+no_dropcap: true
+---
 [[Groups]]
 [[Cyclic Groups]]
 [[Polynomials]]

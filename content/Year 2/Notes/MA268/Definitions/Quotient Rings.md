@@ -1,3 +1,6 @@
+---
+no_dropcap: true
+---
 **Definition:** Let $R$ be a ring, let $I$ be an ideal of $R$ and let $r \in R$. We call
 $$r + I = \{ r + a : a \in I \}$$
 a *coset* of $R$, and we let 

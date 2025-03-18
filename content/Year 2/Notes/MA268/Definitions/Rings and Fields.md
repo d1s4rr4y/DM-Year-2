@@ -1,3 +1,6 @@
+---
+no_dropcap: true
+---
 A **Ring** is a triple $(R, +, \cdot)$ where $R$ is a set and $+, \cdot$ are binary operations on $R$ such that the following properties hold 
 - **Closure:** for all $a, b \in R$, $a + b \in R$ and $a \cdot b \in R$ 
 - **Associativity of Addition:** for all $a, b, c \in R$, $(a + b) + c = a + (b + c)$

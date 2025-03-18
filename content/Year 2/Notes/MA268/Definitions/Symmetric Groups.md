@@ -1,3 +1,6 @@
+---
+no_dropcap: true
+---
 Let $n \ge 1$. Recall that $S_n$ is the set of bijections from $\{1,2,...,n\}$ to itself. Composition of bijections turns $S_n$ into a group. 
 
 **Theorem:** $\# S_n = n!$ 

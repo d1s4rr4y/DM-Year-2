@@ -1,3 +1,6 @@
+---
+no_dropcap: true
+---
 **Definition:** A *transposition* is a cycle of length 2. Thus it has the form $(a, b)$ where $a \ne b$
 **Theorem:** Every Permutation can be written as a product of transpositions
 
