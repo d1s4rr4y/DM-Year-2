@@ -1,0 +1,1 @@
+**Polynomial Ring:** A *polynomial ring* $R$ is the formal set $R[x]$ consisting of $a_0 + a_1 x + a_2 x^2 + ... + a_n x^n$ with $a_i \in R$. If $R$ is an integral domain, so is $R[x]$. If $R$ is a UFD, so is $R[x]$. If $R$ is a field, $R[x]$ is a PID

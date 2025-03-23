@@ -61,8 +61,8 @@ We say that a subgroup $H$ of $G$ is *normal* if and only if $$gHg^{-1} = H$$ fo
 5. $ghg^{-1} \in H$ for all $g \in G, h \in H$ 
 *Proof:* It is easy to see that $$(1) \Leftrightarrow (2) \Leftrightarrow (3), \quad (4) \Leftrightarrow (5)$$ and also that $(2) \Rightarrow (4)$. Let's do $(4) \Rightarrow (2)$. Suppose $gHg^{-1} \subseteq H$ for all $g \in G$. Then, since $g^-1 \in G$ we have $g^{-1}Hg \subseteq H$. Left multiplying by $g$ and right multiplying by $g^{-1}$ gives $$H = g(g^{-1}Hg)g^{-1} \subseteq gHg^{-1}$$ As $gHg^{-1} \subseteq H$ and $H \subseteq gHg^{-1}$ we have $gHg^{-1} = H$
 
-**Lemma:** Let $G$ be a finite group and let $H$ be a subgroup of $H$ of index 2. Then $H$ is normal in $G$. 
-*Proof:* We want to show that $gH = Hg$ for all $g \in G$. By [[#^4c1816|lemma]], $gH = H$ if and only if $g \in H$. 
+**Lemma:** Let $G$ be a finite group and let $H$ be a subgroup of $G$ of index 2. Then $H$ is normal in $G$. 
+*Proof:* We want to show that $gH = Hg$ for all $g \in G$. By [[#^4c1816|lemma]], $gH = H$ if and only if $g \in H$.  ^6f1afc
 - Suppose first that $g \in H$. Then $gH = H$ and $Hg = H$, and so $gH = Hg$
 - Suppose instead that $g \not \in H$. Then $gH \ne H$. But $H$ has index 2 in $G$ and so has exactly 2 left cosets, which must be $H$ and $gH$. Therefore, $G = H \cup gH$ and $H \cap gH = \emptyset$, since cosets form a partition. Thus, $gH = G \backslash H$. Similarly, $Hg = G \backslash H$. Hence, $gH = Hg$.
 ## The Quotient Group
@@ -143,7 +143,50 @@ Here, $C_b$ is the cyclic group of order $b$. The integers $b_1, ..., b_n$ are c
 
 # Group Presentations
 ## Dihedral Group
+A regular $n$-gon has $2n$ symmetries (consisting of $n$ rotations and $n$ reflections). The set of these symmetries forms a group which we will denote $D_{2n}$, which is called the *dihedral group* of order $2n$. 
+- Note that some sources will denote this $D_n$, however $D_{2n}$ has been chosen to be consistent with the resources from Algebra 1 (MA151) and Algebra 3 (MA268)
 
+**Lemma:** Let $a \in D_{2n}$. Suppose $a$ fixes vertices 1 and 2. Then $a = \text{id}$   ^512
+*Proof:* The proof is geometric. Suppose $a$ fixes vertices 1 and 2. Then $a$ fixes the whole line segment joining these two vertices. But $a$ also fixes $O$ (the centre of the $n$-gon). Therefore, $a$ fixes the whole $n$-gon and so $a = \text{id}$  ^72f4eb
+
+**Lemma:** Let $b, c \in D_{2n}$. Suppose $b(1) = c(1)$ and $b(2) = c(2)$. Then $b = c$ ^513
+*Proof:* Here we consider $b$ and $c$ as permutations of $\{1, 2, ..., n\}$. Suppose $b(1) = c(1) = k$ and $b(2) = c(2) = \ell$ where $k$ and $\ell$ are vertex numbers. Let $a = c^{-1}b \in D_{2n}$. Then $$a(1) = c^{-1}(b(1)) = c^{-1}(k) = 1), \quad a(2) b= c^{-1}(b(2)) = c^{-1}(\ell) = 2$$ By [[#^72f4eb|lemma]] we get $a = \text{id}$, so $b = c$ ^ae07c0
+
+**Theorem:** Let $n \ge 3$. Then $$D_{2n} = \{\text{id}, r, r^2,...,r^{n-1}\} \cup \{s, sr, sr^2,...,sr^{n-1}\} = R \cup sR$$ In particular, $\#D_{2n} = 2n$ and $R$ is a normal subgroup of index 2.
+*Proof:* Let $a \in D_{2n}$. Let $a(1) = k$. Note that $a$ must map the vertices adjacent to the vertex 1 (2 and $n$) to the vertices adjacent to the vertex $k$ ($k - 1$ and $k+1$. Therefore, we have 2 cases, either:
+
+$$a: 
+\begin{cases} 
+n \mapsto k -1 & \\ 
+1 \mapsto k & \\
+2 \mapsto k+1 & 
+\end{cases}$$
+or
+
+$$a:
+\begin{cases} 
+n & \mapsto k + 1  \\ 
+1 & \mapsto k \\ 
+2 &\mapsto k - 1 
+\end{cases}$$ 
+
+In the first case, let $b = r^{k-1}$. Note that $$a(1) = k = b(1), \quad a(2) = k + 1 = b(2)$$ so $a = b = r^k$ by [[#^ae07c0|lemma]]. Now we take the second case. Note that 
+$$s : 
+\begin{cases} 
+n & \mapsto 2 \\ 
+1 & \mapsto 1 \\ 
+2 & \mapsto n 
+\end{cases}$$
+So
+$$as : 
+\begin{cases} n & \mapsto k - 1 \\ 
+1 & \mapsto k \\ 
+2 & \mapsto k + 1 
+\end{cases}$$
+Hence $as = r^{k-1}$ so $a = r^{k-1}s^{-1} = r^{k-1}s$. We conclude that any $a \in D_{2n}$ belongs to either $R$ or $Rs$. Thus $D_{2n} = R \cup Rs$. Note that any two cosets $R$ and $Rs$ are distinct as $s \not \in R$. Therefore $[D_{2n} : R] = 2$ and so $R$ is normal in $D_{2n}$ by [[#^6f1afc|lemma]]. Therefore $Rs = sR$ and so $D_{2n} = R \cup RS$ as required.
+
+**Lemma:** With $r, s$ as above, $$r^n = \text{id}, \quad s^2 = \text{id}, \quad srs = r^{-1}$$
+*Proof:* The first two relations are trivial. For the third, note that $s^{-1} = s$. Therefore, $srs = srs^{-1}$. As $R$ is normal in $D_{2n}$ and $r \in R$ we have $srs \in R$. So $srs = r^k$ for some $k$. We compute $$(srs)(1) = (sr)(s(1)) = (sr)(1) = s(r(1)) = s(2) = n$$ Hence $srs = r^{n-1} = r^{-1}$
 ## Generators
 
 ## Group Presentations

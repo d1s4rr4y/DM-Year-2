@@ -1,6 +1,9 @@
 ---
 no_dropcap: true
 ---
+
+
+
 # Details
 - [Course Structure](https://warwick.ac.uk/fac/sci/dcs/teaching/courses/dm2meng-2425)
 - 2nd Year *MEng* Discrete Maths has [[MA222 - Metric Spaces]] as core, which is not core for *BSc*
@@ -28,3 +31,4 @@ no_dropcap: true
 | [[MA267 - Groups and Rings \| MA267]]              | [Groups and Rings](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/ext/ma267/)                 | 10       | 1        |
 | [[MA268 - Algebra 3 \| MA268]]                     | [Algebra 3](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/year2/ma268/)                      | 10       | 1        |
 | [[MA271 - Mathematical Analysis 3\|MA271]]         | [Mathematical Analysis 3](https://warwick.ac.uk/fac/sci/maths/currentstudents/ughandbook/ext/ma271/)          | 10       | 1        |
+
