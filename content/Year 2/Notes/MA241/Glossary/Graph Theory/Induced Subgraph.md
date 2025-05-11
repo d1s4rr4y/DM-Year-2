@@ -1,0 +1,1 @@
+For a graph $G = (V, E)$ and a subset $V' \subseteq V$, the subgraph of $G$ *induced* by $V'$ is the subgraph with the vertex set $V'$ and the edge set $E' = \{e \in E : e \subseteq V'\}$ (i.e., the set of all edges between vertices in $V'$)

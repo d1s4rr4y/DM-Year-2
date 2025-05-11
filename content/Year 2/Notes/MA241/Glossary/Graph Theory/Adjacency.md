@@ -1,0 +1,1 @@
+Let $G = (V, E)$ be a graph. If $v_1, v_2 \in V$ are vertices such that $\{v_1, v_2\} \in E$, we say $v_1$ and $v_2$ are *adjacent* (or *neighbours*)

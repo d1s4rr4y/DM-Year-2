@@ -1,0 +1,1 @@
+The distance between 2 vertices $v_1, v_2$ in a graph $G = (V, E)$ is the length of the shortest path containing $v_1$ and $v_2$. The diameter $\text{diam}(G)$ of $G$ is the maximum distance between 2 vertices in $G$. 

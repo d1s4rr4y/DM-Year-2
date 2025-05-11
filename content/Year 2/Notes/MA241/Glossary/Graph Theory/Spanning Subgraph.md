@@ -1,0 +1,1 @@
+Let $G = (V, E)$ be a connected graph and let $H = (V', E')$ be a subgroup. We say $H$ is a *spanning subgraph* (or that $H$ *spans* $G$) if $V' = V$ 

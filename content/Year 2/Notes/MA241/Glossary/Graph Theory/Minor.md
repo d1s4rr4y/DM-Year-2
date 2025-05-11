@@ -1,0 +1,1 @@
+A graph $H$ is a *minor* of a graph $G$ if $H$ can be obtained from $G$ by a sequence of edge contractions, edge deletions, and vertex deletions.

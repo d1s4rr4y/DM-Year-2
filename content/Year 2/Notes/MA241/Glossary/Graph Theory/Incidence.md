@@ -1,0 +1,1 @@
+Let $G = (V, E)$ be a graph. If $e \in E$ contains $v$, we say $e$ is *incident* to $v$. 

@@ -1,0 +1,1 @@
+A graph is called *Hamiltonian* if there is a closed walk on $G$ that visits each vertex exactly once

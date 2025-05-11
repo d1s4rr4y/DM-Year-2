@@ -1,0 +1,1 @@
+A graph $G = (V, E)$ is *connected* if for every pair $v_1, v_2 \in V$, there is a path in $G$ from $v_1$ to $v_2$ 

@@ -1,0 +1,1 @@
+The *girth* $\text{girth}(G)$ of a graph $G = (V, E)$ is the length of the shortest cycle in $G$.

@@ -1,0 +1,1 @@
+Let $n \ge k$ be positive integers. We define *n choose k*, denoted $n \choose k$, to be the quantity $\frac{n!}{k!(n-k)!}$. The value $n \choose k$ is also called a *binomial coefficient*

@@ -1,0 +1,1 @@
+Let $\lambda$ be a partition of $n$. The *conjugate partition* $\lambda^T$ of $\lambda$ is the partition corresponding to the reflection of the Ferrers Diagram of $\lambda$ over the (upper left to lower right) diagonal. 

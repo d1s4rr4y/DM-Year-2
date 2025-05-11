@@ -1,0 +1,75 @@
+# Attendance 
+- Josh
+- Lewis
+- Ray
+- Ed (D)
+- Edward (O'D)
+- Subhan
+- Louis (Very late smh)
+# Agenda 0: Setup and Organisation
+- Make sure all academics have access to vaultwarden and outline
+	- **Ed:** Harass tech (they deserve it) 
+	- Please please use the google calendar I stg
+# Agenda I: Updates to Existing Events
+- Revision Sessions
+	- Find out when exams are occurring
+	- Sessions:
+		- *CS126* (Louis, Edward), *CS130* (Ed, Krister), *CS131* (Ali, Ed), *CS140* (Rowan), *CS139* (Ed, Lucy?), *CS141* (Ed), *CS147* (Aastha, Ed, Ray?) 
+			- Additional help from other people is welcome and appreciated
+		- Second year - all academics are first/second year, could put out a request to 3rd/4th years who would want to run a revision session
+		- Advertise/Remind of maths revision sessions 
+			- **Ed:** Talk to maths soc and stats soc about when they're running things (I'm also happy to do this - **Ray**)
+- Lightning Talks 
+	- None in term 3 as low attendance, exams 
+	- **Louis** and **Ali** want to do karaoke talks, speak to them about low attendance vs pushing to T1
+- Industry Talks 
+	- **Edward** has already been speaking to companies and organising
+	- KPMG -> waiting for response
+		- Get date down ASAP, W3 has no exams
+	- Bad idea to do ind talks in t3 as if attendance is bad the company will be angy >:( 
+		- Can ask other CS/Tech socs to advertise
+		- Free pizza 👀
+- Courses
+	- Could do a talk on how to revise?
+		- I am happy to run it (**Ray**)
+		- Contact ADHD Soc Events Coord, maybe MathsSoc
+		- Probably run 21st/22nd April
+	- Not much for term 3
+		- Term 1
+			- C course
+			- LeetCode workshops w/ CodeSoc 
+			- LaTeX Course - Freshers Week?
+				- Harass MathsSoc 
+		- Term 2
+			- Rust Course 
+			- ProcGen 
+- ProgComps 
+	- Infrastructure exists
+	- T1 & T2
+	- Document EVERYTHING
+	- Can reuse but rewrite easier problems, need someone to write the harder ones
+	- Run a session beforehand on how to actually participate, sample problems, etc (similar to last year)
+# Agenda II: New Event Planning
+- 3rd Year Project Talks
+	- Term 3 event
+	- W3 wed afternoon (2 or so hours, 6 speakers, 20 mins each) last year 
+	- **Edward** is happy to run it
+	- Run it just after the intro to 3rd year projects talk
+- Interview Cafe/Internship Cafe
+# Agenda III: Misc 
+- Course Structure Changes 
+	- Not yet published
+- GitGood/Linux
+	- Git Good needs a complete overhaul (not useful in its current format) 
+		- Make more practical
+	- **Ed** wants to help
+	- Later (end of term/over summer) problem to organise 
+	- Talk to DCS about moving when we usually do it
+		- Annual meeting with DCS, could be brought up there 
+
+# TODO
+- Ed: harass tech about vaultwarden, get revision session dates from MathsSoc and StatsSoc  
+- Ray: Talk to MathsSoc/ADHD Soc about revision session
+- Edward: 3rd Year project talk planning, organising industry talk
+- Various: Revision Sessions, ask 3rd/4th years about running 2nd year revision sessions 
+- 

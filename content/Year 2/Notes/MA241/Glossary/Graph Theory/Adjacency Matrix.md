@@ -1,0 +1,1 @@
+The *adjacency matrix* of a graph $G$ is the symmetric $|V| \times |V|$ matrix $M(G) = (m_{vw})_{v, w \in V}$ with entries $$m_{v, w} = \begin{cases} 1 & \{v, w\} \in E \\ 0 & \{v, w\} \not \in E\end{cases}$$

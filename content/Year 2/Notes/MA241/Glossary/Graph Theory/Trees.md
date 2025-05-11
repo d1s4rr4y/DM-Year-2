@@ -1,0 +1,1 @@
+A connected acyclic graph is called a *tree*.

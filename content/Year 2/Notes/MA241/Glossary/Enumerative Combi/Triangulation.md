@@ -1,0 +1,1 @@
+A *triangulation* of a regular $n$-gon is a collection of non-crossing diagonals that divide the $n$-gon into triangles. 

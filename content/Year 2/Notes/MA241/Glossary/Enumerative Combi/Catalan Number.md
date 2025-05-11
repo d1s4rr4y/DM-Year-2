@@ -1,0 +1,1 @@
+The $n$th *Catalan number* $C_n$ is the number of triangulations of the regular $(n + 2)$-gon 

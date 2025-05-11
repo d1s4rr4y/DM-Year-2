@@ -1,0 +1,1 @@
+Let $G$ and $G'$ be graphs. We say $G$ *contains* $G'$ if $G'$ is isomorphic to a subgraph of $G$. 

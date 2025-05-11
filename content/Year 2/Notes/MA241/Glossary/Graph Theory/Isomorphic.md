@@ -1,0 +1,1 @@
+Two graphs $G = (V, E)$ and $G' = (V', E')$ are *isomorphic* if there exists a bijection $\phi: V \to V'$ such that $\{v_1, v_2\} \in E$ if and only if $\{\phi(v_1), \phi(v_2)\} \in E'$.

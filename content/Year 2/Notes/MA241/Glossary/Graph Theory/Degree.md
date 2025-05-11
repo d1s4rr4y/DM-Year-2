@@ -1,0 +1,1 @@
+Let $G = (V, E)$. For $v \in V$, the number of edges incident to $v$ is called the *degree* of $v$, $\deg(v)$, or the *valence* of $v$.

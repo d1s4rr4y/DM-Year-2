@@ -1,0 +1,1 @@
+A graph is called *planar* if it can be drawn in $\mathbb{R}^2$ with no edge crossings. 

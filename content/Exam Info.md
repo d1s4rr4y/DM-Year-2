@@ -1,7 +1,9 @@
-Today is `= date(today)`
-
-
+Today is `= date(today)` - there are
+- `=(date(2025-04-23) - date(today)).days` days until April exams
+- `=(date(2025-05-06) - date(today)).days` days until May exams 
+- `=(date(2025-05-12) - date(today)).days` days until Summer exams. 
 ## Exams Timetable
+
 **April:**
 ```widgets
 type: countdown

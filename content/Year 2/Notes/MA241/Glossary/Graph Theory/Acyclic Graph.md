@@ -1,0 +1,1 @@
+A graph is called *acyclic* if it contains no cycles.

@@ -1,0 +1,1 @@
+A *graph* $G = (V, E)$ is a set $V$, whose elements are called the vertices of $G$, and a set $E$ of unordered pairs of distinct vertices, whose elements are called the edges of $G$. 

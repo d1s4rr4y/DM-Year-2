@@ -1,0 +1,1 @@
+A graph is called *Eulerian* if there is a closed walk on $G$ that traverses each edge exactly once.

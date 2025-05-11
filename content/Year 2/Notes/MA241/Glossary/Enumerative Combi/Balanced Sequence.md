@@ -1,0 +1,1 @@
+A *balanced sequence* $n$ opened and $n$ closing parentheses is a sequence such that every close-paren has a matching open-paren

@@ -1,0 +1,1 @@
+The *crossing number* $\text{cross}(G)$ of a graph $G$ is the fewest number of crossings needed to draw $G$ in $\mathbb{R}^2$ 

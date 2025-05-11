@@ -1,0 +1,1 @@
+Let $(a_n)_{n \ge 0}$ be a sequence of numbers. The formal power series $$\sum_{n = 1}^{\infty} a_nx^n$$ is called the *ordinary generating function* of $(a_n)_{n \ge 0}$, and the formal power series $$\sum_{n=0}^{\infty} a_n \frac{x^n}{n!}$$ is called the *exponential generating function* of $(a_n)_{n \ge 0}$ 

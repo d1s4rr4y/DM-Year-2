@@ -1,0 +1,1 @@
+An *independent set of vertices* in a graph is a subset of the vertices in which no two elements are adjacent. The *vertex independence number* $\text{ind}_V(G)$ of $G$ is the cardinality of the largest independent set in $G$. 

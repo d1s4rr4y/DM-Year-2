@@ -1,0 +1,1 @@
+Let $G = (V, E)$ and $H = (V', E')$ be graphs, where $V' \subseteq V$. We say $H$ is a *subgraph* of $G$ if for all edges $\{v_1, v_2\} \in E'$, we have $\{v_1, v_2\} \in E$

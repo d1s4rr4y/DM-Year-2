@@ -1,0 +1,1 @@
+Given a graph $G$ and an edge $e$ of $G$, we can *contract* $e$; this means we remove $e$ and merge its two end points.
